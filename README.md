@@ -1,4 +1,6 @@
 ## Introduction
+### [Report](http://home.iitk.ac.in/~snehal/CS396A/Report.pdf) | [Presentation](http://home.iitk.ac.in/~snehal/CS396A/Presentation.pdf)
+
 One of the most widely used models to study quantum algorithms is the quantum query
 model. Many algorithms, ranging from Grover’s total search to Shor’s famous factoring
 algorithm, use the quantum query model.
@@ -12,5 +14,3 @@ different approaches, symmetrization and dual witness. The details can be found 
 3 of the report. We also present the main results of the paper by Aaronson et. al. "Forrelation: A problem that optimally separates quantum
 from classical computing," in Chapter 4.
 
-### [Report](http://home.iitk.ac.in/~snehal/CS396A/Report.pdf)
-### [Presentation](http://home.iitk.ac.in/~snehal/CS396A/Presentation.pdf)
