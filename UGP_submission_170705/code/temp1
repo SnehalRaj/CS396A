@@ -1,0 +1,786 @@
+Using Python-MIP package version 1.8.1
+Give the number of variables
+Welcome to the CBC MILP Solver 
+Version: Trunk
+Build Date: Apr 16 2020 
+
+Starting solution of the Linear programming relaxation problem using Primal Simplex
+
+Coin0506I Presolve 0 (-4) rows, 0 (-64) columns and 0 (-8) elements
+Clp0000I Optimal - objective value 0
+Coin0511I After Postsolve, objective 0, infeasibilities - dual 0 (0), primal 0 (0)
+Clp0032I Optimal objective 0 - 0 iterations time 0.002, Presolve 0.00, Idiot 0.00
+
+Starting MIP optimization
+The truth table of the function is  [-1, -1, -1, -1, -1, -1, -1, -1]
+the poly rep is  [-1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+Its bm poly representation is  [[-1.0], [0.0], [0.0], [0.0], [0.0], [0.0], [0.0], [0.0]]
+t: 0
+permutation
+[()]
+[[[<mip.entities.Var object at 0x7fdfcc6ec550>], [<mip.entities.Var object at 0x7fdfcc6ec160>], [<mip.entities.Var object at 0x7fdfcc6ec470>], [<mip.entities.Var object at 0x7fdfcc6ec5c0>]]]
+x 0
+cnt: 0
+0
+[]
+[]
+[]
+[]
+[[[<mip.entities.Var object at 0x7fdfcc6ec550>], [<mip.entities.Var object at 0x7fdfcc6ec160>], [<mip.entities.Var object at 0x7fdfcc6ec470>], [<mip.entities.Var object at 0x7fdfcc6ec5c0>]], [[<mip.entities.Var object at 0x7fdfcc6ec320>], [<mip.entities.Var object at 0x7fdfcc6ec668>], [<mip.entities.Var object at 0x7fdfcc6ec908>], [<mip.entities.Var object at 0x7fdfcc6ec748>]]]
+[[[<mip.entities.Var object at 0x7fdfcc6ec550>], [<mip.entities.Var object at 0x7fdfcc6ec160>], [<mip.entities.Var object at 0x7fdfcc6ec470>], [<mip.entities.Var object at 0x7fdfcc6ec5c0>]], [[<mip.entities.Var object at 0x7fdfcc6ec320>], [<mip.entities.Var object at 0x7fdfcc6ec668>], [<mip.entities.Var object at 0x7fdfcc6ec908>], [<mip.entities.Var object at 0x7fdfcc6ec748>]], [[<mip.entities.Var object at 0x7fdfcc6eca20>], [<mip.entities.Var object at 0x7fdfcc6eca90>], [<mip.entities.Var object at 0x7fdfcc6ec6d8>], [<mip.entities.Var object at 0x7fdfcc6ecb38>]]]
+[[[<mip.entities.Var object at 0x7fdfcc6ec550>], [<mip.entities.Var object at 0x7fdfcc6ec160>], [<mip.entities.Var object at 0x7fdfcc6ec470>], [<mip.entities.Var object at 0x7fdfcc6ec5c0>]], [[<mip.entities.Var object at 0x7fdfcc6ec320>], [<mip.entities.Var object at 0x7fdfcc6ec668>], [<mip.entities.Var object at 0x7fdfcc6ec908>], [<mip.entities.Var object at 0x7fdfcc6ec748>]], [[<mip.entities.Var object at 0x7fdfcc6eca20>], [<mip.entities.Var object at 0x7fdfcc6eca90>], [<mip.entities.Var object at 0x7fdfcc6ec6d8>], [<mip.entities.Var object at 0x7fdfcc6ecb38>]], [[<mip.entities.Var object at 0x7fdfcc6ecc18>], [<mip.entities.Var object at 0x7fdfcc6ecd68>], [<mip.entities.Var object at 0x7fdfcc6eccf8>], [<mip.entities.Var object at 0x7fdfcc6ecc50>]]]
+[[[<mip.entities.Var object at 0x7fdfcc6ec550>], [<mip.entities.Var object at 0x7fdfcc6ec160>], [<mip.entities.Var object at 0x7fdfcc6ec470>], [<mip.entities.Var object at 0x7fdfcc6ec5c0>]], [[<mip.entities.Var object at 0x7fdfcc6ec320>], [<mip.entities.Var object at 0x7fdfcc6ec668>], [<mip.entities.Var object at 0x7fdfcc6ec908>], [<mip.entities.Var object at 0x7fdfcc6ec748>]], [[<mip.entities.Var object at 0x7fdfcc6eca20>], [<mip.entities.Var object at 0x7fdfcc6eca90>], [<mip.entities.Var object at 0x7fdfcc6ec6d8>], [<mip.entities.Var object at 0x7fdfcc6ecb38>]], [[<mip.entities.Var object at 0x7fdfcc6ecc18>], [<mip.entities.Var object at 0x7fdfcc6ecd68>], [<mip.entities.Var object at 0x7fdfcc6eccf8>], [<mip.entities.Var object at 0x7fdfcc6ecc50>]], [[<mip.entities.Var object at 0x7fdfcc6ec940>], [<mip.entities.Var object at 0x7fdfcc6eca58>], [<mip.entities.Var object at 0x7fdfcc6ecef0>], [<mip.entities.Var object at 0x7fdfcc6ecc88>]]]
+[[[<mip.entities.Var object at 0x7fdfcc6ec550>], [<mip.entities.Var object at 0x7fdfcc6ec160>], [<mip.entities.Var object at 0x7fdfcc6ec470>], [<mip.entities.Var object at 0x7fdfcc6ec5c0>]], [[<mip.entities.Var object at 0x7fdfcc6ec320>], [<mip.entities.Var object at 0x7fdfcc6ec668>], [<mip.entities.Var object at 0x7fdfcc6ec908>], [<mip.entities.Var object at 0x7fdfcc6ec748>]], [[<mip.entities.Var object at 0x7fdfcc6eca20>], [<mip.entities.Var object at 0x7fdfcc6eca90>], [<mip.entities.Var object at 0x7fdfcc6ec6d8>], [<mip.entities.Var object at 0x7fdfcc6ecb38>]], [[<mip.entities.Var object at 0x7fdfcc6ecc18>], [<mip.entities.Var object at 0x7fdfcc6ecd68>], [<mip.entities.Var object at 0x7fdfcc6eccf8>], [<mip.entities.Var object at 0x7fdfcc6ecc50>]], [[<mip.entities.Var object at 0x7fdfcc6ec940>], [<mip.entities.Var object at 0x7fdfcc6eca58>], [<mip.entities.Var object at 0x7fdfcc6ecef0>], [<mip.entities.Var object at 0x7fdfcc6ecc88>]], [[<mip.entities.Var object at 0x7fdfcc6eccc0>], [<mip.entities.Var object at 0x7fdfcc6ecfd0>], [<mip.entities.Var object at 0x7fdfcc6ecac8>], [<mip.entities.Var object at 0x7fdfcc6ece10>]]]
+[[[<mip.entities.Var object at 0x7fdfcc6ec550>], [<mip.entities.Var object at 0x7fdfcc6ec160>], [<mip.entities.Var object at 0x7fdfcc6ec470>], [<mip.entities.Var object at 0x7fdfcc6ec5c0>]], [[<mip.entities.Var object at 0x7fdfcc6ec320>], [<mip.entities.Var object at 0x7fdfcc6ec668>], [<mip.entities.Var object at 0x7fdfcc6ec908>], [<mip.entities.Var object at 0x7fdfcc6ec748>]], [[<mip.entities.Var object at 0x7fdfcc6eca20>], [<mip.entities.Var object at 0x7fdfcc6eca90>], [<mip.entities.Var object at 0x7fdfcc6ec6d8>], [<mip.entities.Var object at 0x7fdfcc6ecb38>]], [[<mip.entities.Var object at 0x7fdfcc6ecc18>], [<mip.entities.Var object at 0x7fdfcc6ecd68>], [<mip.entities.Var object at 0x7fdfcc6eccf8>], [<mip.entities.Var object at 0x7fdfcc6ecc50>]], [[<mip.entities.Var object at 0x7fdfcc6ec940>], [<mip.entities.Var object at 0x7fdfcc6eca58>], [<mip.entities.Var object at 0x7fdfcc6ecef0>], [<mip.entities.Var object at 0x7fdfcc6ecc88>]], [[<mip.entities.Var object at 0x7fdfcc6eccc0>], [<mip.entities.Var object at 0x7fdfcc6ecfd0>], [<mip.entities.Var object at 0x7fdfcc6ecac8>], [<mip.entities.Var object at 0x7fdfcc6ece10>]], [[<mip.entities.Var object at 0x7fdfcc742cc0>], [<mip.entities.Var object at 0x7fdfcc742dd8>], [<mip.entities.Var object at 0x7fdfcc742c88>], [<mip.entities.Var object at 0x7fdfcc742eb8>]]]
+[[[<mip.entities.Var object at 0x7fdfcc6ec550>], [<mip.entities.Var object at 0x7fdfcc6ec160>], [<mip.entities.Var object at 0x7fdfcc6ec470>], [<mip.entities.Var object at 0x7fdfcc6ec5c0>]], [[<mip.entities.Var object at 0x7fdfcc6ec320>], [<mip.entities.Var object at 0x7fdfcc6ec668>], [<mip.entities.Var object at 0x7fdfcc6ec908>], [<mip.entities.Var object at 0x7fdfcc6ec748>]], [[<mip.entities.Var object at 0x7fdfcc6eca20>], [<mip.entities.Var object at 0x7fdfcc6eca90>], [<mip.entities.Var object at 0x7fdfcc6ec6d8>], [<mip.entities.Var object at 0x7fdfcc6ecb38>]], [[<mip.entities.Var object at 0x7fdfcc6ecc18>], [<mip.entities.Var object at 0x7fdfcc6ecd68>], [<mip.entities.Var object at 0x7fdfcc6eccf8>], [<mip.entities.Var object at 0x7fdfcc6ecc50>]], [[<mip.entities.Var object at 0x7fdfcc6ec940>], [<mip.entities.Var object at 0x7fdfcc6eca58>], [<mip.entities.Var object at 0x7fdfcc6ecef0>], [<mip.entities.Var object at 0x7fdfcc6ecc88>]], [[<mip.entities.Var object at 0x7fdfcc6eccc0>], [<mip.entities.Var object at 0x7fdfcc6ecfd0>], [<mip.entities.Var object at 0x7fdfcc6ecac8>], [<mip.entities.Var object at 0x7fdfcc6ece10>]], [[<mip.entities.Var object at 0x7fdfcc742cc0>], [<mip.entities.Var object at 0x7fdfcc742dd8>], [<mip.entities.Var object at 0x7fdfcc742c88>], [<mip.entities.Var object at 0x7fdfcc742eb8>]], [[<mip.entities.Var object at 0x7fdfcc742e10>], [<mip.entities.Var object at 0x7fdfcc742e80>], [<mip.entities.Var object at 0x7fdfcc742c50>], [<mip.entities.Var object at 0x7fdfcc742f60>]]]
+Optimal value is-1.0
+count is  0
+The truth table of the function is  [1, -1, -1, -1, -1, -1, -1, -1]
+the poly rep is  [-0.75, -0.25, -0.25, 0.25, -0.25, 0.25, 0.25, -0.25]
+Its bm poly representation is  [[-0.125, -0.125, -0.125, -0.125, -0.125, -0.125], [-0.041666666666666664, -0.041666666666666664, -0.041666666666666664, -0.041666666666666664, -0.041666666666666664, -0.041666666666666664], [-0.041666666666666664, -0.041666666666666664, -0.041666666666666664, -0.041666666666666664, -0.041666666666666664, -0.041666666666666664], [0.041666666666666664, 0.041666666666666664, 0.041666666666666664, 0.041666666666666664, 0.041666666666666664, 0.041666666666666664], [-0.041666666666666664, -0.041666666666666664, -0.041666666666666664, -0.041666666666666664, -0.041666666666666664, -0.041666666666666664], [0.041666666666666664, 0.041666666666666664, 0.041666666666666664, 0.041666666666666664, 0.041666666666666664, 0.041666666666666664], [0.041666666666666664, 0.041666666666666664, 0.041666666666666664, 0.041666666666666664, 0.041666666666666664, 0.041666666666666664], [-0.041666666666666664, -0.041666666666666664, -0.041666666666666664, -0.041666666666666664, -0.041666666666666664, -0.041666666666666664]]
+t: 3
+permutation
+[(0, 1, 2), (0, 2, 1), (1, 0, 2), (1, 2, 0), (2, 0, 1), (2, 1, 0)]
+[[[<mip.entities.Var object at 0x7fdfcc6af7b8>, <mip.entities.Var object at 0x7fdfcc6af630>, <mip.entities.Var object at 0x7fdfcc6af860>, <mip.entities.Var object at 0x7fdfcc6afa58>, <mip.entities.Var object at 0x7fdfcc6af908>, <mip.entities.Var object at 0x7fdfcc6af828>], [<mip.entities.Var object at 0x7fdfcc6af320>, <mip.entities.Var object at 0x7fdfcc6af4a8>, <mip.entities.Var object at 0x7fdfcc6afa90>, <mip.entities.Var object at 0x7fdfcc6afb70>, <mip.entities.Var object at 0x7fdfcc6af978>, <mip.entities.Var object at 0x7fdfcc6afc18>], [<mip.entities.Var object at 0x7fdfcc6af898>, <mip.entities.Var object at 0x7fdfcc6af7f0>, <mip.entities.Var object at 0x7fdfcc6afa20>, <mip.entities.Var object at 0x7fdfcc6afcc0>, <mip.entities.Var object at 0x7fdfcc6afd30>, <mip.entities.Var object at 0x7fdfcc6afac8>], [<mip.entities.Var object at 0x7fdfcc6afc88>, <mip.entities.Var object at 0x7fdfcc6afbe0>, <mip.entities.Var object at 0x7fdfcc6afe80>, <mip.entities.Var object at 0x7fdfcc6af550>, <mip.entities.Var object at 0x7fdfcc7552b0>, <mip.entities.Var object at 0x7fdfcc7554a8>]]]
+x 0
+cnt: 3
+3
+[0, 0, 0]
+[0, 1, 1]
+[0, 2, 2]
+[0, 3, 3]
+[[[<mip.entities.Var object at 0x7fdfcc6af7b8>, <mip.entities.Var object at 0x7fdfcc6af630>, <mip.entities.Var object at 0x7fdfcc6af860>, <mip.entities.Var object at 0x7fdfcc6afa58>, <mip.entities.Var object at 0x7fdfcc6af908>, <mip.entities.Var object at 0x7fdfcc6af828>], [<mip.entities.Var object at 0x7fdfcc6af320>, <mip.entities.Var object at 0x7fdfcc6af4a8>, <mip.entities.Var object at 0x7fdfcc6afa90>, <mip.entities.Var object at 0x7fdfcc6afb70>, <mip.entities.Var object at 0x7fdfcc6af978>, <mip.entities.Var object at 0x7fdfcc6afc18>], [<mip.entities.Var object at 0x7fdfcc6af898>, <mip.entities.Var object at 0x7fdfcc6af7f0>, <mip.entities.Var object at 0x7fdfcc6afa20>, <mip.entities.Var object at 0x7fdfcc6afcc0>, <mip.entities.Var object at 0x7fdfcc6afd30>, <mip.entities.Var object at 0x7fdfcc6afac8>], [<mip.entities.Var object at 0x7fdfcc6afc88>, <mip.entities.Var object at 0x7fdfcc6afbe0>, <mip.entities.Var object at 0x7fdfcc6afe80>, <mip.entities.Var object at 0x7fdfcc6af550>, <mip.entities.Var object at 0x7fdfcc7552b0>, <mip.entities.Var object at 0x7fdfcc7554a8>]], [[<mip.entities.Var object at 0x7fdfcc755908>, <mip.entities.Var object at 0x7fdfcc755dd8>, <mip.entities.Var object at 0x7fdfcc755fd0>, <mip.entities.Var object at 0x7fdfcc755e48>, <mip.entities.Var object at 0x7fdfcc755940>, <mip.entities.Var object at 0x7fdfcc6ba0b8>], [<mip.entities.Var object at 0x7fdfcc6ba048>, <mip.entities.Var object at 0x7fdfcc6ba240>, <mip.entities.Var object at 0x7fdfcc6ba080>, <mip.entities.Var object at 0x7fdfcc6ba160>, <mip.entities.Var object at 0x7fdfcc6ba320>, <mip.entities.Var object at 0x7fdfcc6ba4e0>], [<mip.entities.Var object at 0x7fdfcc6ba668>, <mip.entities.Var object at 0x7fdfcc6ba3c8>, <mip.entities.Var object at 0x7fdfcc6ba5c0>, <mip.entities.Var object at 0x7fdfcc6ba588>, <mip.entities.Var object at 0x7fdfcc6ba5f8>, <mip.entities.Var object at 0x7fdfcc6ba470>], [<mip.entities.Var object at 0x7fdfcc6ba518>, <mip.entities.Var object at 0x7fdfcc6ba400>, <mip.entities.Var object at 0x7fdfcc6ba860>, <mip.entities.Var object at 0x7fdfcc6ba748>, <mip.entities.Var object at 0x7fdfcc6ba550>, <mip.entities.Var object at 0x7fdfcc6ba828>]]]
+x 1
+cnt: 2
+2
+[1, 0, 0]
+[1, 1, 1]
+[1, 2, 2]
+[1, 3, 3]
+[[[<mip.entities.Var object at 0x7fdfcc6af7b8>, <mip.entities.Var object at 0x7fdfcc6af630>, <mip.entities.Var object at 0x7fdfcc6af860>, <mip.entities.Var object at 0x7fdfcc6afa58>, <mip.entities.Var object at 0x7fdfcc6af908>, <mip.entities.Var object at 0x7fdfcc6af828>], [<mip.entities.Var object at 0x7fdfcc6af320>, <mip.entities.Var object at 0x7fdfcc6af4a8>, <mip.entities.Var object at 0x7fdfcc6afa90>, <mip.entities.Var object at 0x7fdfcc6afb70>, <mip.entities.Var object at 0x7fdfcc6af978>, <mip.entities.Var object at 0x7fdfcc6afc18>], [<mip.entities.Var object at 0x7fdfcc6af898>, <mip.entities.Var object at 0x7fdfcc6af7f0>, <mip.entities.Var object at 0x7fdfcc6afa20>, <mip.entities.Var object at 0x7fdfcc6afcc0>, <mip.entities.Var object at 0x7fdfcc6afd30>, <mip.entities.Var object at 0x7fdfcc6afac8>], [<mip.entities.Var object at 0x7fdfcc6afc88>, <mip.entities.Var object at 0x7fdfcc6afbe0>, <mip.entities.Var object at 0x7fdfcc6afe80>, <mip.entities.Var object at 0x7fdfcc6af550>, <mip.entities.Var object at 0x7fdfcc7552b0>, <mip.entities.Var object at 0x7fdfcc7554a8>]], [[<mip.entities.Var object at 0x7fdfcc755908>, <mip.entities.Var object at 0x7fdfcc755dd8>, <mip.entities.Var object at 0x7fdfcc755fd0>, <mip.entities.Var object at 0x7fdfcc755e48>, <mip.entities.Var object at 0x7fdfcc755940>, <mip.entities.Var object at 0x7fdfcc6ba0b8>], [<mip.entities.Var object at 0x7fdfcc6ba048>, <mip.entities.Var object at 0x7fdfcc6ba240>, <mip.entities.Var object at 0x7fdfcc6ba080>, <mip.entities.Var object at 0x7fdfcc6ba160>, <mip.entities.Var object at 0x7fdfcc6ba320>, <mip.entities.Var object at 0x7fdfcc6ba4e0>], [<mip.entities.Var object at 0x7fdfcc6ba668>, <mip.entities.Var object at 0x7fdfcc6ba3c8>, <mip.entities.Var object at 0x7fdfcc6ba5c0>, <mip.entities.Var object at 0x7fdfcc6ba588>, <mip.entities.Var object at 0x7fdfcc6ba5f8>, <mip.entities.Var object at 0x7fdfcc6ba470>], [<mip.entities.Var object at 0x7fdfcc6ba518>, <mip.entities.Var object at 0x7fdfcc6ba400>, <mip.entities.Var object at 0x7fdfcc6ba860>, <mip.entities.Var object at 0x7fdfcc6ba748>, <mip.entities.Var object at 0x7fdfcc6ba550>, <mip.entities.Var object at 0x7fdfcc6ba828>]], [[<mip.entities.Var object at 0x7fdfcc6fe8d0>, <mip.entities.Var object at 0x7fdfcc6fef98>, <mip.entities.Var object at 0x7fdfcc6feeb8>, <mip.entities.Var object at 0x7fdfcc6fee80>, <mip.entities.Var object at 0x7fdfcc6fe6d8>, <mip.entities.Var object at 0x7fdfcc6fe5c0>], [<mip.entities.Var object at 0x7fdfcc6fe2e8>, <mip.entities.Var object at 0x7fdfcc6fe748>, <mip.entities.Var object at 0x7fdfcc6fe400>, <mip.entities.Var object at 0x7fdfcc6fefd0>, <mip.entities.Var object at 0x7fdfcc6deb38>, <mip.entities.Var object at 0x7fdfcc6deb70>], [<mip.entities.Var object at 0x7fdfcc6dea58>, <mip.entities.Var object at 0x7fdfcc6de780>, <mip.entities.Var object at 0x7fdfcc6de7b8>, <mip.entities.Var object at 0x7fdfcc6de7f0>, <mip.entities.Var object at 0x7fdfcc6de860>, <mip.entities.Var object at 0x7fdfcc6dec50>], [<mip.entities.Var object at 0x7fdfcc6dec88>, <mip.entities.Var object at 0x7fdfcc6decc0>, <mip.entities.Var object at 0x7fdfcc6decf8>, <mip.entities.Var object at 0x7fdfcc6ded68>, <mip.entities.Var object at 0x7fdfcc6deda0>, <mip.entities.Var object at 0x7fdfcc6dedd8>]]]
+x 2
+cnt: 2
+2
+[2, 0, 0]
+[2, 1, 1]
+[2, 2, 2]
+[2, 3, 3]
+[[[<mip.entities.Var object at 0x7fdfcc6af7b8>, <mip.entities.Var object at 0x7fdfcc6af630>, <mip.entities.Var object at 0x7fdfcc6af860>, <mip.entities.Var object at 0x7fdfcc6afa58>, <mip.entities.Var object at 0x7fdfcc6af908>, <mip.entities.Var object at 0x7fdfcc6af828>], [<mip.entities.Var object at 0x7fdfcc6af320>, <mip.entities.Var object at 0x7fdfcc6af4a8>, <mip.entities.Var object at 0x7fdfcc6afa90>, <mip.entities.Var object at 0x7fdfcc6afb70>, <mip.entities.Var object at 0x7fdfcc6af978>, <mip.entities.Var object at 0x7fdfcc6afc18>], [<mip.entities.Var object at 0x7fdfcc6af898>, <mip.entities.Var object at 0x7fdfcc6af7f0>, <mip.entities.Var object at 0x7fdfcc6afa20>, <mip.entities.Var object at 0x7fdfcc6afcc0>, <mip.entities.Var object at 0x7fdfcc6afd30>, <mip.entities.Var object at 0x7fdfcc6afac8>], [<mip.entities.Var object at 0x7fdfcc6afc88>, <mip.entities.Var object at 0x7fdfcc6afbe0>, <mip.entities.Var object at 0x7fdfcc6afe80>, <mip.entities.Var object at 0x7fdfcc6af550>, <mip.entities.Var object at 0x7fdfcc7552b0>, <mip.entities.Var object at 0x7fdfcc7554a8>]], [[<mip.entities.Var object at 0x7fdfcc755908>, <mip.entities.Var object at 0x7fdfcc755dd8>, <mip.entities.Var object at 0x7fdfcc755fd0>, <mip.entities.Var object at 0x7fdfcc755e48>, <mip.entities.Var object at 0x7fdfcc755940>, <mip.entities.Var object at 0x7fdfcc6ba0b8>], [<mip.entities.Var object at 0x7fdfcc6ba048>, <mip.entities.Var object at 0x7fdfcc6ba240>, <mip.entities.Var object at 0x7fdfcc6ba080>, <mip.entities.Var object at 0x7fdfcc6ba160>, <mip.entities.Var object at 0x7fdfcc6ba320>, <mip.entities.Var object at 0x7fdfcc6ba4e0>], [<mip.entities.Var object at 0x7fdfcc6ba668>, <mip.entities.Var object at 0x7fdfcc6ba3c8>, <mip.entities.Var object at 0x7fdfcc6ba5c0>, <mip.entities.Var object at 0x7fdfcc6ba588>, <mip.entities.Var object at 0x7fdfcc6ba5f8>, <mip.entities.Var object at 0x7fdfcc6ba470>], [<mip.entities.Var object at 0x7fdfcc6ba518>, <mip.entities.Var object at 0x7fdfcc6ba400>, <mip.entities.Var object at 0x7fdfcc6ba860>, <mip.entities.Var object at 0x7fdfcc6ba748>, <mip.entities.Var object at 0x7fdfcc6ba550>, <mip.entities.Var object at 0x7fdfcc6ba828>]], [[<mip.entities.Var object at 0x7fdfcc6fe8d0>, <mip.entities.Var object at 0x7fdfcc6fef98>, <mip.entities.Var object at 0x7fdfcc6feeb8>, <mip.entities.Var object at 0x7fdfcc6fee80>, <mip.entities.Var object at 0x7fdfcc6fe6d8>, <mip.entities.Var object at 0x7fdfcc6fe5c0>], [<mip.entities.Var object at 0x7fdfcc6fe2e8>, <mip.entities.Var object at 0x7fdfcc6fe748>, <mip.entities.Var object at 0x7fdfcc6fe400>, <mip.entities.Var object at 0x7fdfcc6fefd0>, <mip.entities.Var object at 0x7fdfcc6deb38>, <mip.entities.Var object at 0x7fdfcc6deb70>], [<mip.entities.Var object at 0x7fdfcc6dea58>, <mip.entities.Var object at 0x7fdfcc6de780>, <mip.entities.Var object at 0x7fdfcc6de7b8>, <mip.entities.Var object at 0x7fdfcc6de7f0>, <mip.entities.Var object at 0x7fdfcc6de860>, <mip.entities.Var object at 0x7fdfcc6dec50>], [<mip.entities.Var object at 0x7fdfcc6dec88>, <mip.entities.Var object at 0x7fdfcc6decc0>, <mip.entities.Var object at 0x7fdfcc6decf8>, <mip.entities.Var object at 0x7fdfcc6ded68>, <mip.entities.Var object at 0x7fdfcc6deda0>, <mip.entities.Var object at 0x7fdfcc6dedd8>]], [[<mip.entities.Var object at 0x7fdfcc757390>, <mip.entities.Var object at 0x7fdfcc757908>, <mip.entities.Var object at 0x7fdfcc757940>, <mip.entities.Var object at 0x7fdfcc757978>, <mip.entities.Var object at 0x7fdfcc7579b0>, <mip.entities.Var object at 0x7fdfcc7579e8>], [<mip.entities.Var object at 0x7fdfcc757a20>, <mip.entities.Var object at 0x7fdfcc757a58>, <mip.entities.Var object at 0x7fdfcc757a90>, <mip.entities.Var object at 0x7fdfcc757ac8>, <mip.entities.Var object at 0x7fdfcc757b00>, <mip.entities.Var object at 0x7fdfcc757b38>], [<mip.entities.Var object at 0x7fdfcc757b70>, <mip.entities.Var object at 0x7fdfcc757ba8>, <mip.entities.Var object at 0x7fdfcc757be0>, <mip.entities.Var object at 0x7fdfcc757c18>, <mip.entities.Var object at 0x7fdfcc757c50>, <mip.entities.Var object at 0x7fdfcc757c88>], [<mip.entities.Var object at 0x7fdfcc757cc0>, <mip.entities.Var object at 0x7fdfcc757cf8>, <mip.entities.Var object at 0x7fdfcc757d30>, <mip.entities.Var object at 0x7fdfcc757d68>, <mip.entities.Var object at 0x7fdfcc757da0>, <mip.entities.Var object at 0x7fdfcc757dd8>]]]
+x 3
+cnt: 1
+1
+[1, 2, 0]
+[1, 2, 0]
+[1, 2, 0]
+[1, 2, 0]
+[[[<mip.entities.Var object at 0x7fdfcc6af7b8>, <mip.entities.Var object at 0x7fdfcc6af630>, <mip.entities.Var object at 0x7fdfcc6af860>, <mip.entities.Var object at 0x7fdfcc6afa58>, <mip.entities.Var object at 0x7fdfcc6af908>, <mip.entities.Var object at 0x7fdfcc6af828>], [<mip.entities.Var object at 0x7fdfcc6af320>, <mip.entities.Var object at 0x7fdfcc6af4a8>, <mip.entities.Var object at 0x7fdfcc6afa90>, <mip.entities.Var object at 0x7fdfcc6afb70>, <mip.entities.Var object at 0x7fdfcc6af978>, <mip.entities.Var object at 0x7fdfcc6afc18>], [<mip.entities.Var object at 0x7fdfcc6af898>, <mip.entities.Var object at 0x7fdfcc6af7f0>, <mip.entities.Var object at 0x7fdfcc6afa20>, <mip.entities.Var object at 0x7fdfcc6afcc0>, <mip.entities.Var object at 0x7fdfcc6afd30>, <mip.entities.Var object at 0x7fdfcc6afac8>], [<mip.entities.Var object at 0x7fdfcc6afc88>, <mip.entities.Var object at 0x7fdfcc6afbe0>, <mip.entities.Var object at 0x7fdfcc6afe80>, <mip.entities.Var object at 0x7fdfcc6af550>, <mip.entities.Var object at 0x7fdfcc7552b0>, <mip.entities.Var object at 0x7fdfcc7554a8>]], [[<mip.entities.Var object at 0x7fdfcc755908>, <mip.entities.Var object at 0x7fdfcc755dd8>, <mip.entities.Var object at 0x7fdfcc755fd0>, <mip.entities.Var object at 0x7fdfcc755e48>, <mip.entities.Var object at 0x7fdfcc755940>, <mip.entities.Var object at 0x7fdfcc6ba0b8>], [<mip.entities.Var object at 0x7fdfcc6ba048>, <mip.entities.Var object at 0x7fdfcc6ba240>, <mip.entities.Var object at 0x7fdfcc6ba080>, <mip.entities.Var object at 0x7fdfcc6ba160>, <mip.entities.Var object at 0x7fdfcc6ba320>, <mip.entities.Var object at 0x7fdfcc6ba4e0>], [<mip.entities.Var object at 0x7fdfcc6ba668>, <mip.entities.Var object at 0x7fdfcc6ba3c8>, <mip.entities.Var object at 0x7fdfcc6ba5c0>, <mip.entities.Var object at 0x7fdfcc6ba588>, <mip.entities.Var object at 0x7fdfcc6ba5f8>, <mip.entities.Var object at 0x7fdfcc6ba470>], [<mip.entities.Var object at 0x7fdfcc6ba518>, <mip.entities.Var object at 0x7fdfcc6ba400>, <mip.entities.Var object at 0x7fdfcc6ba860>, <mip.entities.Var object at 0x7fdfcc6ba748>, <mip.entities.Var object at 0x7fdfcc6ba550>, <mip.entities.Var object at 0x7fdfcc6ba828>]], [[<mip.entities.Var object at 0x7fdfcc6fe8d0>, <mip.entities.Var object at 0x7fdfcc6fef98>, <mip.entities.Var object at 0x7fdfcc6feeb8>, <mip.entities.Var object at 0x7fdfcc6fee80>, <mip.entities.Var object at 0x7fdfcc6fe6d8>, <mip.entities.Var object at 0x7fdfcc6fe5c0>], [<mip.entities.Var object at 0x7fdfcc6fe2e8>, <mip.entities.Var object at 0x7fdfcc6fe748>, <mip.entities.Var object at 0x7fdfcc6fe400>, <mip.entities.Var object at 0x7fdfcc6fefd0>, <mip.entities.Var object at 0x7fdfcc6deb38>, <mip.entities.Var object at 0x7fdfcc6deb70>], [<mip.entities.Var object at 0x7fdfcc6dea58>, <mip.entities.Var object at 0x7fdfcc6de780>, <mip.entities.Var object at 0x7fdfcc6de7b8>, <mip.entities.Var object at 0x7fdfcc6de7f0>, <mip.entities.Var object at 0x7fdfcc6de860>, <mip.entities.Var object at 0x7fdfcc6dec50>], [<mip.entities.Var object at 0x7fdfcc6dec88>, <mip.entities.Var object at 0x7fdfcc6decc0>, <mip.entities.Var object at 0x7fdfcc6decf8>, <mip.entities.Var object at 0x7fdfcc6ded68>, <mip.entities.Var object at 0x7fdfcc6deda0>, <mip.entities.Var object at 0x7fdfcc6dedd8>]], [[<mip.entities.Var object at 0x7fdfcc757390>, <mip.entities.Var object at 0x7fdfcc757908>, <mip.entities.Var object at 0x7fdfcc757940>, <mip.entities.Var object at 0x7fdfcc757978>, <mip.entities.Var object at 0x7fdfcc7579b0>, <mip.entities.Var object at 0x7fdfcc7579e8>], [<mip.entities.Var object at 0x7fdfcc757a20>, <mip.entities.Var object at 0x7fdfcc757a58>, <mip.entities.Var object at 0x7fdfcc757a90>, <mip.entities.Var object at 0x7fdfcc757ac8>, <mip.entities.Var object at 0x7fdfcc757b00>, <mip.entities.Var object at 0x7fdfcc757b38>], [<mip.entities.Var object at 0x7fdfcc757b70>, <mip.entities.Var object at 0x7fdfcc757ba8>, <mip.entities.Var object at 0x7fdfcc757be0>, <mip.entities.Var object at 0x7fdfcc757c18>, <mip.entities.Var object at 0x7fdfcc757c50>, <mip.entities.Var object at 0x7fdfcc757c88>], [<mip.entities.Var object at 0x7fdfcc757cc0>, <mip.entities.Var object at 0x7fdfcc757cf8>, <mip.entities.Var object at 0x7fdfcc757d30>, <mip.entities.Var object at 0x7fdfcc757d68>, <mip.entities.Var object at 0x7fdfcc757da0>, <mip.entities.Var object at 0x7fdfcc757dd8>]], [[<mip.entities.Var object at 0x7fdfcc753390>, <mip.entities.Var object at 0x7fdfcc753908>, <mip.entities.Var object at 0x7fdfcc753940>, <mip.entities.Var object at 0x7fdfcc753978>, <mip.entities.Var object at 0x7fdfcc7539b0>, <mip.entities.Var object at 0x7fdfcc7539e8>], [<mip.entities.Var object at 0x7fdfcc753a20>, <mip.entities.Var object at 0x7fdfcc753a58>, <mip.entities.Var object at 0x7fdfcc753a90>, <mip.entities.Var object at 0x7fdfcc753ac8>, <mip.entities.Var object at 0x7fdfcc753b00>, <mip.entities.Var object at 0x7fdfcc753b38>], [<mip.entities.Var object at 0x7fdfcc753b70>, <mip.entities.Var object at 0x7fdfcc753ba8>, <mip.entities.Var object at 0x7fdfcc753be0>, <mip.entities.Var object at 0x7fdfcc753c18>, <mip.entities.Var object at 0x7fdfcc753c50>, <mip.entities.Var object at 0x7fdfcc753c88>], [<mip.entities.Var object at 0x7fdfcc753cc0>, <mip.entities.Var object at 0x7fdfcc753cf8>, <mip.entities.Var object at 0x7fdfcc753d30>, <mip.entities.Var object at 0x7fdfcc753d68>, <mip.entities.Var object at 0x7fdfcc753da0>, <mip.entities.Var object at 0x7fdfcc753dd8>]]]
+x 4
+cnt: 2
+2
+[3, 0, 0]
+[3, 1, 1]
+[3, 2, 2]
+[3, 3, 3]
+[[[<mip.entities.Var object at 0x7fdfcc6af7b8>, <mip.entities.Var object at 0x7fdfcc6af630>, <mip.entities.Var object at 0x7fdfcc6af860>, <mip.entities.Var object at 0x7fdfcc6afa58>, <mip.entities.Var object at 0x7fdfcc6af908>, <mip.entities.Var object at 0x7fdfcc6af828>], [<mip.entities.Var object at 0x7fdfcc6af320>, <mip.entities.Var object at 0x7fdfcc6af4a8>, <mip.entities.Var object at 0x7fdfcc6afa90>, <mip.entities.Var object at 0x7fdfcc6afb70>, <mip.entities.Var object at 0x7fdfcc6af978>, <mip.entities.Var object at 0x7fdfcc6afc18>], [<mip.entities.Var object at 0x7fdfcc6af898>, <mip.entities.Var object at 0x7fdfcc6af7f0>, <mip.entities.Var object at 0x7fdfcc6afa20>, <mip.entities.Var object at 0x7fdfcc6afcc0>, <mip.entities.Var object at 0x7fdfcc6afd30>, <mip.entities.Var object at 0x7fdfcc6afac8>], [<mip.entities.Var object at 0x7fdfcc6afc88>, <mip.entities.Var object at 0x7fdfcc6afbe0>, <mip.entities.Var object at 0x7fdfcc6afe80>, <mip.entities.Var object at 0x7fdfcc6af550>, <mip.entities.Var object at 0x7fdfcc7552b0>, <mip.entities.Var object at 0x7fdfcc7554a8>]], [[<mip.entities.Var object at 0x7fdfcc755908>, <mip.entities.Var object at 0x7fdfcc755dd8>, <mip.entities.Var object at 0x7fdfcc755fd0>, <mip.entities.Var object at 0x7fdfcc755e48>, <mip.entities.Var object at 0x7fdfcc755940>, <mip.entities.Var object at 0x7fdfcc6ba0b8>], [<mip.entities.Var object at 0x7fdfcc6ba048>, <mip.entities.Var object at 0x7fdfcc6ba240>, <mip.entities.Var object at 0x7fdfcc6ba080>, <mip.entities.Var object at 0x7fdfcc6ba160>, <mip.entities.Var object at 0x7fdfcc6ba320>, <mip.entities.Var object at 0x7fdfcc6ba4e0>], [<mip.entities.Var object at 0x7fdfcc6ba668>, <mip.entities.Var object at 0x7fdfcc6ba3c8>, <mip.entities.Var object at 0x7fdfcc6ba5c0>, <mip.entities.Var object at 0x7fdfcc6ba588>, <mip.entities.Var object at 0x7fdfcc6ba5f8>, <mip.entities.Var object at 0x7fdfcc6ba470>], [<mip.entities.Var object at 0x7fdfcc6ba518>, <mip.entities.Var object at 0x7fdfcc6ba400>, <mip.entities.Var object at 0x7fdfcc6ba860>, <mip.entities.Var object at 0x7fdfcc6ba748>, <mip.entities.Var object at 0x7fdfcc6ba550>, <mip.entities.Var object at 0x7fdfcc6ba828>]], [[<mip.entities.Var object at 0x7fdfcc6fe8d0>, <mip.entities.Var object at 0x7fdfcc6fef98>, <mip.entities.Var object at 0x7fdfcc6feeb8>, <mip.entities.Var object at 0x7fdfcc6fee80>, <mip.entities.Var object at 0x7fdfcc6fe6d8>, <mip.entities.Var object at 0x7fdfcc6fe5c0>], [<mip.entities.Var object at 0x7fdfcc6fe2e8>, <mip.entities.Var object at 0x7fdfcc6fe748>, <mip.entities.Var object at 0x7fdfcc6fe400>, <mip.entities.Var object at 0x7fdfcc6fefd0>, <mip.entities.Var object at 0x7fdfcc6deb38>, <mip.entities.Var object at 0x7fdfcc6deb70>], [<mip.entities.Var object at 0x7fdfcc6dea58>, <mip.entities.Var object at 0x7fdfcc6de780>, <mip.entities.Var object at 0x7fdfcc6de7b8>, <mip.entities.Var object at 0x7fdfcc6de7f0>, <mip.entities.Var object at 0x7fdfcc6de860>, <mip.entities.Var object at 0x7fdfcc6dec50>], [<mip.entities.Var object at 0x7fdfcc6dec88>, <mip.entities.Var object at 0x7fdfcc6decc0>, <mip.entities.Var object at 0x7fdfcc6decf8>, <mip.entities.Var object at 0x7fdfcc6ded68>, <mip.entities.Var object at 0x7fdfcc6deda0>, <mip.entities.Var object at 0x7fdfcc6dedd8>]], [[<mip.entities.Var object at 0x7fdfcc757390>, <mip.entities.Var object at 0x7fdfcc757908>, <mip.entities.Var object at 0x7fdfcc757940>, <mip.entities.Var object at 0x7fdfcc757978>, <mip.entities.Var object at 0x7fdfcc7579b0>, <mip.entities.Var object at 0x7fdfcc7579e8>], [<mip.entities.Var object at 0x7fdfcc757a20>, <mip.entities.Var object at 0x7fdfcc757a58>, <mip.entities.Var object at 0x7fdfcc757a90>, <mip.entities.Var object at 0x7fdfcc757ac8>, <mip.entities.Var object at 0x7fdfcc757b00>, <mip.entities.Var object at 0x7fdfcc757b38>], [<mip.entities.Var object at 0x7fdfcc757b70>, <mip.entities.Var object at 0x7fdfcc757ba8>, <mip.entities.Var object at 0x7fdfcc757be0>, <mip.entities.Var object at 0x7fdfcc757c18>, <mip.entities.Var object at 0x7fdfcc757c50>, <mip.entities.Var object at 0x7fdfcc757c88>], [<mip.entities.Var object at 0x7fdfcc757cc0>, <mip.entities.Var object at 0x7fdfcc757cf8>, <mip.entities.Var object at 0x7fdfcc757d30>, <mip.entities.Var object at 0x7fdfcc757d68>, <mip.entities.Var object at 0x7fdfcc757da0>, <mip.entities.Var object at 0x7fdfcc757dd8>]], [[<mip.entities.Var object at 0x7fdfcc753390>, <mip.entities.Var object at 0x7fdfcc753908>, <mip.entities.Var object at 0x7fdfcc753940>, <mip.entities.Var object at 0x7fdfcc753978>, <mip.entities.Var object at 0x7fdfcc7539b0>, <mip.entities.Var object at 0x7fdfcc7539e8>], [<mip.entities.Var object at 0x7fdfcc753a20>, <mip.entities.Var object at 0x7fdfcc753a58>, <mip.entities.Var object at 0x7fdfcc753a90>, <mip.entities.Var object at 0x7fdfcc753ac8>, <mip.entities.Var object at 0x7fdfcc753b00>, <mip.entities.Var object at 0x7fdfcc753b38>], [<mip.entities.Var object at 0x7fdfcc753b70>, <mip.entities.Var object at 0x7fdfcc753ba8>, <mip.entities.Var object at 0x7fdfcc753be0>, <mip.entities.Var object at 0x7fdfcc753c18>, <mip.entities.Var object at 0x7fdfcc753c50>, <mip.entities.Var object at 0x7fdfcc753c88>], [<mip.entities.Var object at 0x7fdfcc753cc0>, <mip.entities.Var object at 0x7fdfcc753cf8>, <mip.entities.Var object at 0x7fdfcc753d30>, <mip.entities.Var object at 0x7fdfcc753d68>, <mip.entities.Var object at 0x7fdfcc753da0>, <mip.entities.Var object at 0x7fdfcc753dd8>]], [[<mip.entities.Var object at 0x7fdfcc754390>, <mip.entities.Var object at 0x7fdfcc754908>, <mip.entities.Var object at 0x7fdfcc754940>, <mip.entities.Var object at 0x7fdfcc754978>, <mip.entities.Var object at 0x7fdfcc7549b0>, <mip.entities.Var object at 0x7fdfcc7549e8>], [<mip.entities.Var object at 0x7fdfcc754a20>, <mip.entities.Var object at 0x7fdfcc754a58>, <mip.entities.Var object at 0x7fdfcc754a90>, <mip.entities.Var object at 0x7fdfcc754ac8>, <mip.entities.Var object at 0x7fdfcc754b00>, <mip.entities.Var object at 0x7fdfcc754b38>], [<mip.entities.Var object at 0x7fdfcc754b70>, <mip.entities.Var object at 0x7fdfcc754ba8>, <mip.entities.Var object at 0x7fdfcc754be0>, <mip.entities.Var object at 0x7fdfcc754c18>, <mip.entities.Var object at 0x7fdfcc754c50>, <mip.entities.Var object at 0x7fdfcc754c88>], [<mip.entities.Var object at 0x7fdfcc754cc0>, <mip.entities.Var object at 0x7fdfcc754cf8>, <mip.entities.Var object at 0x7fdfcc754d30>, <mip.entities.Var object at 0x7fdfcc754d68>, <mip.entities.Var object at 0x7fdfcc754da0>, <mip.entities.Var object at 0x7fdfcc754dd8>]]]
+x 5
+cnt: 1
+1
+[1, 3, 0]
+[1, 3, 0]
+[1, 3, 0]
+[1, 3, 0]
+[[[<mip.entities.Var object at 0x7fdfcc6af7b8>, <mip.entities.Var object at 0x7fdfcc6af630>, <mip.entities.Var object at 0x7fdfcc6af860>, <mip.entities.Var object at 0x7fdfcc6afa58>, <mip.entities.Var object at 0x7fdfcc6af908>, <mip.entities.Var object at 0x7fdfcc6af828>], [<mip.entities.Var object at 0x7fdfcc6af320>, <mip.entities.Var object at 0x7fdfcc6af4a8>, <mip.entities.Var object at 0x7fdfcc6afa90>, <mip.entities.Var object at 0x7fdfcc6afb70>, <mip.entities.Var object at 0x7fdfcc6af978>, <mip.entities.Var object at 0x7fdfcc6afc18>], [<mip.entities.Var object at 0x7fdfcc6af898>, <mip.entities.Var object at 0x7fdfcc6af7f0>, <mip.entities.Var object at 0x7fdfcc6afa20>, <mip.entities.Var object at 0x7fdfcc6afcc0>, <mip.entities.Var object at 0x7fdfcc6afd30>, <mip.entities.Var object at 0x7fdfcc6afac8>], [<mip.entities.Var object at 0x7fdfcc6afc88>, <mip.entities.Var object at 0x7fdfcc6afbe0>, <mip.entities.Var object at 0x7fdfcc6afe80>, <mip.entities.Var object at 0x7fdfcc6af550>, <mip.entities.Var object at 0x7fdfcc7552b0>, <mip.entities.Var object at 0x7fdfcc7554a8>]], [[<mip.entities.Var object at 0x7fdfcc755908>, <mip.entities.Var object at 0x7fdfcc755dd8>, <mip.entities.Var object at 0x7fdfcc755fd0>, <mip.entities.Var object at 0x7fdfcc755e48>, <mip.entities.Var object at 0x7fdfcc755940>, <mip.entities.Var object at 0x7fdfcc6ba0b8>], [<mip.entities.Var object at 0x7fdfcc6ba048>, <mip.entities.Var object at 0x7fdfcc6ba240>, <mip.entities.Var object at 0x7fdfcc6ba080>, <mip.entities.Var object at 0x7fdfcc6ba160>, <mip.entities.Var object at 0x7fdfcc6ba320>, <mip.entities.Var object at 0x7fdfcc6ba4e0>], [<mip.entities.Var object at 0x7fdfcc6ba668>, <mip.entities.Var object at 0x7fdfcc6ba3c8>, <mip.entities.Var object at 0x7fdfcc6ba5c0>, <mip.entities.Var object at 0x7fdfcc6ba588>, <mip.entities.Var object at 0x7fdfcc6ba5f8>, <mip.entities.Var object at 0x7fdfcc6ba470>], [<mip.entities.Var object at 0x7fdfcc6ba518>, <mip.entities.Var object at 0x7fdfcc6ba400>, <mip.entities.Var object at 0x7fdfcc6ba860>, <mip.entities.Var object at 0x7fdfcc6ba748>, <mip.entities.Var object at 0x7fdfcc6ba550>, <mip.entities.Var object at 0x7fdfcc6ba828>]], [[<mip.entities.Var object at 0x7fdfcc6fe8d0>, <mip.entities.Var object at 0x7fdfcc6fef98>, <mip.entities.Var object at 0x7fdfcc6feeb8>, <mip.entities.Var object at 0x7fdfcc6fee80>, <mip.entities.Var object at 0x7fdfcc6fe6d8>, <mip.entities.Var object at 0x7fdfcc6fe5c0>], [<mip.entities.Var object at 0x7fdfcc6fe2e8>, <mip.entities.Var object at 0x7fdfcc6fe748>, <mip.entities.Var object at 0x7fdfcc6fe400>, <mip.entities.Var object at 0x7fdfcc6fefd0>, <mip.entities.Var object at 0x7fdfcc6deb38>, <mip.entities.Var object at 0x7fdfcc6deb70>], [<mip.entities.Var object at 0x7fdfcc6dea58>, <mip.entities.Var object at 0x7fdfcc6de780>, <mip.entities.Var object at 0x7fdfcc6de7b8>, <mip.entities.Var object at 0x7fdfcc6de7f0>, <mip.entities.Var object at 0x7fdfcc6de860>, <mip.entities.Var object at 0x7fdfcc6dec50>], [<mip.entities.Var object at 0x7fdfcc6dec88>, <mip.entities.Var object at 0x7fdfcc6decc0>, <mip.entities.Var object at 0x7fdfcc6decf8>, <mip.entities.Var object at 0x7fdfcc6ded68>, <mip.entities.Var object at 0x7fdfcc6deda0>, <mip.entities.Var object at 0x7fdfcc6dedd8>]], [[<mip.entities.Var object at 0x7fdfcc757390>, <mip.entities.Var object at 0x7fdfcc757908>, <mip.entities.Var object at 0x7fdfcc757940>, <mip.entities.Var object at 0x7fdfcc757978>, <mip.entities.Var object at 0x7fdfcc7579b0>, <mip.entities.Var object at 0x7fdfcc7579e8>], [<mip.entities.Var object at 0x7fdfcc757a20>, <mip.entities.Var object at 0x7fdfcc757a58>, <mip.entities.Var object at 0x7fdfcc757a90>, <mip.entities.Var object at 0x7fdfcc757ac8>, <mip.entities.Var object at 0x7fdfcc757b00>, <mip.entities.Var object at 0x7fdfcc757b38>], [<mip.entities.Var object at 0x7fdfcc757b70>, <mip.entities.Var object at 0x7fdfcc757ba8>, <mip.entities.Var object at 0x7fdfcc757be0>, <mip.entities.Var object at 0x7fdfcc757c18>, <mip.entities.Var object at 0x7fdfcc757c50>, <mip.entities.Var object at 0x7fdfcc757c88>], [<mip.entities.Var object at 0x7fdfcc757cc0>, <mip.entities.Var object at 0x7fdfcc757cf8>, <mip.entities.Var object at 0x7fdfcc757d30>, <mip.entities.Var object at 0x7fdfcc757d68>, <mip.entities.Var object at 0x7fdfcc757da0>, <mip.entities.Var object at 0x7fdfcc757dd8>]], [[<mip.entities.Var object at 0x7fdfcc753390>, <mip.entities.Var object at 0x7fdfcc753908>, <mip.entities.Var object at 0x7fdfcc753940>, <mip.entities.Var object at 0x7fdfcc753978>, <mip.entities.Var object at 0x7fdfcc7539b0>, <mip.entities.Var object at 0x7fdfcc7539e8>], [<mip.entities.Var object at 0x7fdfcc753a20>, <mip.entities.Var object at 0x7fdfcc753a58>, <mip.entities.Var object at 0x7fdfcc753a90>, <mip.entities.Var object at 0x7fdfcc753ac8>, <mip.entities.Var object at 0x7fdfcc753b00>, <mip.entities.Var object at 0x7fdfcc753b38>], [<mip.entities.Var object at 0x7fdfcc753b70>, <mip.entities.Var object at 0x7fdfcc753ba8>, <mip.entities.Var object at 0x7fdfcc753be0>, <mip.entities.Var object at 0x7fdfcc753c18>, <mip.entities.Var object at 0x7fdfcc753c50>, <mip.entities.Var object at 0x7fdfcc753c88>], [<mip.entities.Var object at 0x7fdfcc753cc0>, <mip.entities.Var object at 0x7fdfcc753cf8>, <mip.entities.Var object at 0x7fdfcc753d30>, <mip.entities.Var object at 0x7fdfcc753d68>, <mip.entities.Var object at 0x7fdfcc753da0>, <mip.entities.Var object at 0x7fdfcc753dd8>]], [[<mip.entities.Var object at 0x7fdfcc754390>, <mip.entities.Var object at 0x7fdfcc754908>, <mip.entities.Var object at 0x7fdfcc754940>, <mip.entities.Var object at 0x7fdfcc754978>, <mip.entities.Var object at 0x7fdfcc7549b0>, <mip.entities.Var object at 0x7fdfcc7549e8>], [<mip.entities.Var object at 0x7fdfcc754a20>, <mip.entities.Var object at 0x7fdfcc754a58>, <mip.entities.Var object at 0x7fdfcc754a90>, <mip.entities.Var object at 0x7fdfcc754ac8>, <mip.entities.Var object at 0x7fdfcc754b00>, <mip.entities.Var object at 0x7fdfcc754b38>], [<mip.entities.Var object at 0x7fdfcc754b70>, <mip.entities.Var object at 0x7fdfcc754ba8>, <mip.entities.Var object at 0x7fdfcc754be0>, <mip.entities.Var object at 0x7fdfcc754c18>, <mip.entities.Var object at 0x7fdfcc754c50>, <mip.entities.Var object at 0x7fdfcc754c88>], [<mip.entities.Var object at 0x7fdfcc754cc0>, <mip.entities.Var object at 0x7fdfcc754cf8>, <mip.entities.Var object at 0x7fdfcc754d30>, <mip.entities.Var object at 0x7fdfcc754d68>, <mip.entities.Var object at 0x7fdfcc754da0>, <mip.entities.Var object at 0x7fdfcc754dd8>]], [[<mip.entities.Var object at 0x7fdfcc75c390>, <mip.entities.Var object at 0x7fdfcc75c908>, <mip.entities.Var object at 0x7fdfcc75c940>, <mip.entities.Var object at 0x7fdfcc75c978>, <mip.entities.Var object at 0x7fdfcc75c9b0>, <mip.entities.Var object at 0x7fdfcc75c9e8>], [<mip.entities.Var object at 0x7fdfcc75ca20>, <mip.entities.Var object at 0x7fdfcc75ca58>, <mip.entities.Var object at 0x7fdfcc75ca90>, <mip.entities.Var object at 0x7fdfcc75cac8>, <mip.entities.Var object at 0x7fdfcc75cb00>, <mip.entities.Var object at 0x7fdfcc75cb38>], [<mip.entities.Var object at 0x7fdfcc75cb70>, <mip.entities.Var object at 0x7fdfcc75cba8>, <mip.entities.Var object at 0x7fdfcc75cbe0>, <mip.entities.Var object at 0x7fdfcc75cc18>, <mip.entities.Var object at 0x7fdfcc75cc50>, <mip.entities.Var object at 0x7fdfcc75cc88>], [<mip.entities.Var object at 0x7fdfcc75ccc0>, <mip.entities.Var object at 0x7fdfcc75ccf8>, <mip.entities.Var object at 0x7fdfcc75cd30>, <mip.entities.Var object at 0x7fdfcc75cd68>, <mip.entities.Var object at 0x7fdfcc75cda0>, <mip.entities.Var object at 0x7fdfcc75cdd8>]]]
+x 6
+cnt: 1
+1
+[2, 3, 0]
+[2, 3, 0]
+[2, 3, 0]
+[2, 3, 0]
+[[[<mip.entities.Var object at 0x7fdfcc6af7b8>, <mip.entities.Var object at 0x7fdfcc6af630>, <mip.entities.Var object at 0x7fdfcc6af860>, <mip.entities.Var object at 0x7fdfcc6afa58>, <mip.entities.Var object at 0x7fdfcc6af908>, <mip.entities.Var object at 0x7fdfcc6af828>], [<mip.entities.Var object at 0x7fdfcc6af320>, <mip.entities.Var object at 0x7fdfcc6af4a8>, <mip.entities.Var object at 0x7fdfcc6afa90>, <mip.entities.Var object at 0x7fdfcc6afb70>, <mip.entities.Var object at 0x7fdfcc6af978>, <mip.entities.Var object at 0x7fdfcc6afc18>], [<mip.entities.Var object at 0x7fdfcc6af898>, <mip.entities.Var object at 0x7fdfcc6af7f0>, <mip.entities.Var object at 0x7fdfcc6afa20>, <mip.entities.Var object at 0x7fdfcc6afcc0>, <mip.entities.Var object at 0x7fdfcc6afd30>, <mip.entities.Var object at 0x7fdfcc6afac8>], [<mip.entities.Var object at 0x7fdfcc6afc88>, <mip.entities.Var object at 0x7fdfcc6afbe0>, <mip.entities.Var object at 0x7fdfcc6afe80>, <mip.entities.Var object at 0x7fdfcc6af550>, <mip.entities.Var object at 0x7fdfcc7552b0>, <mip.entities.Var object at 0x7fdfcc7554a8>]], [[<mip.entities.Var object at 0x7fdfcc755908>, <mip.entities.Var object at 0x7fdfcc755dd8>, <mip.entities.Var object at 0x7fdfcc755fd0>, <mip.entities.Var object at 0x7fdfcc755e48>, <mip.entities.Var object at 0x7fdfcc755940>, <mip.entities.Var object at 0x7fdfcc6ba0b8>], [<mip.entities.Var object at 0x7fdfcc6ba048>, <mip.entities.Var object at 0x7fdfcc6ba240>, <mip.entities.Var object at 0x7fdfcc6ba080>, <mip.entities.Var object at 0x7fdfcc6ba160>, <mip.entities.Var object at 0x7fdfcc6ba320>, <mip.entities.Var object at 0x7fdfcc6ba4e0>], [<mip.entities.Var object at 0x7fdfcc6ba668>, <mip.entities.Var object at 0x7fdfcc6ba3c8>, <mip.entities.Var object at 0x7fdfcc6ba5c0>, <mip.entities.Var object at 0x7fdfcc6ba588>, <mip.entities.Var object at 0x7fdfcc6ba5f8>, <mip.entities.Var object at 0x7fdfcc6ba470>], [<mip.entities.Var object at 0x7fdfcc6ba518>, <mip.entities.Var object at 0x7fdfcc6ba400>, <mip.entities.Var object at 0x7fdfcc6ba860>, <mip.entities.Var object at 0x7fdfcc6ba748>, <mip.entities.Var object at 0x7fdfcc6ba550>, <mip.entities.Var object at 0x7fdfcc6ba828>]], [[<mip.entities.Var object at 0x7fdfcc6fe8d0>, <mip.entities.Var object at 0x7fdfcc6fef98>, <mip.entities.Var object at 0x7fdfcc6feeb8>, <mip.entities.Var object at 0x7fdfcc6fee80>, <mip.entities.Var object at 0x7fdfcc6fe6d8>, <mip.entities.Var object at 0x7fdfcc6fe5c0>], [<mip.entities.Var object at 0x7fdfcc6fe2e8>, <mip.entities.Var object at 0x7fdfcc6fe748>, <mip.entities.Var object at 0x7fdfcc6fe400>, <mip.entities.Var object at 0x7fdfcc6fefd0>, <mip.entities.Var object at 0x7fdfcc6deb38>, <mip.entities.Var object at 0x7fdfcc6deb70>], [<mip.entities.Var object at 0x7fdfcc6dea58>, <mip.entities.Var object at 0x7fdfcc6de780>, <mip.entities.Var object at 0x7fdfcc6de7b8>, <mip.entities.Var object at 0x7fdfcc6de7f0>, <mip.entities.Var object at 0x7fdfcc6de860>, <mip.entities.Var object at 0x7fdfcc6dec50>], [<mip.entities.Var object at 0x7fdfcc6dec88>, <mip.entities.Var object at 0x7fdfcc6decc0>, <mip.entities.Var object at 0x7fdfcc6decf8>, <mip.entities.Var object at 0x7fdfcc6ded68>, <mip.entities.Var object at 0x7fdfcc6deda0>, <mip.entities.Var object at 0x7fdfcc6dedd8>]], [[<mip.entities.Var object at 0x7fdfcc757390>, <mip.entities.Var object at 0x7fdfcc757908>, <mip.entities.Var object at 0x7fdfcc757940>, <mip.entities.Var object at 0x7fdfcc757978>, <mip.entities.Var object at 0x7fdfcc7579b0>, <mip.entities.Var object at 0x7fdfcc7579e8>], [<mip.entities.Var object at 0x7fdfcc757a20>, <mip.entities.Var object at 0x7fdfcc757a58>, <mip.entities.Var object at 0x7fdfcc757a90>, <mip.entities.Var object at 0x7fdfcc757ac8>, <mip.entities.Var object at 0x7fdfcc757b00>, <mip.entities.Var object at 0x7fdfcc757b38>], [<mip.entities.Var object at 0x7fdfcc757b70>, <mip.entities.Var object at 0x7fdfcc757ba8>, <mip.entities.Var object at 0x7fdfcc757be0>, <mip.entities.Var object at 0x7fdfcc757c18>, <mip.entities.Var object at 0x7fdfcc757c50>, <mip.entities.Var object at 0x7fdfcc757c88>], [<mip.entities.Var object at 0x7fdfcc757cc0>, <mip.entities.Var object at 0x7fdfcc757cf8>, <mip.entities.Var object at 0x7fdfcc757d30>, <mip.entities.Var object at 0x7fdfcc757d68>, <mip.entities.Var object at 0x7fdfcc757da0>, <mip.entities.Var object at 0x7fdfcc757dd8>]], [[<mip.entities.Var object at 0x7fdfcc753390>, <mip.entities.Var object at 0x7fdfcc753908>, <mip.entities.Var object at 0x7fdfcc753940>, <mip.entities.Var object at 0x7fdfcc753978>, <mip.entities.Var object at 0x7fdfcc7539b0>, <mip.entities.Var object at 0x7fdfcc7539e8>], [<mip.entities.Var object at 0x7fdfcc753a20>, <mip.entities.Var object at 0x7fdfcc753a58>, <mip.entities.Var object at 0x7fdfcc753a90>, <mip.entities.Var object at 0x7fdfcc753ac8>, <mip.entities.Var object at 0x7fdfcc753b00>, <mip.entities.Var object at 0x7fdfcc753b38>], [<mip.entities.Var object at 0x7fdfcc753b70>, <mip.entities.Var object at 0x7fdfcc753ba8>, <mip.entities.Var object at 0x7fdfcc753be0>, <mip.entities.Var object at 0x7fdfcc753c18>, <mip.entities.Var object at 0x7fdfcc753c50>, <mip.entities.Var object at 0x7fdfcc753c88>], [<mip.entities.Var object at 0x7fdfcc753cc0>, <mip.entities.Var object at 0x7fdfcc753cf8>, <mip.entities.Var object at 0x7fdfcc753d30>, <mip.entities.Var object at 0x7fdfcc753d68>, <mip.entities.Var object at 0x7fdfcc753da0>, <mip.entities.Var object at 0x7fdfcc753dd8>]], [[<mip.entities.Var object at 0x7fdfcc754390>, <mip.entities.Var object at 0x7fdfcc754908>, <mip.entities.Var object at 0x7fdfcc754940>, <mip.entities.Var object at 0x7fdfcc754978>, <mip.entities.Var object at 0x7fdfcc7549b0>, <mip.entities.Var object at 0x7fdfcc7549e8>], [<mip.entities.Var object at 0x7fdfcc754a20>, <mip.entities.Var object at 0x7fdfcc754a58>, <mip.entities.Var object at 0x7fdfcc754a90>, <mip.entities.Var object at 0x7fdfcc754ac8>, <mip.entities.Var object at 0x7fdfcc754b00>, <mip.entities.Var object at 0x7fdfcc754b38>], [<mip.entities.Var object at 0x7fdfcc754b70>, <mip.entities.Var object at 0x7fdfcc754ba8>, <mip.entities.Var object at 0x7fdfcc754be0>, <mip.entities.Var object at 0x7fdfcc754c18>, <mip.entities.Var object at 0x7fdfcc754c50>, <mip.entities.Var object at 0x7fdfcc754c88>], [<mip.entities.Var object at 0x7fdfcc754cc0>, <mip.entities.Var object at 0x7fdfcc754cf8>, <mip.entities.Var object at 0x7fdfcc754d30>, <mip.entities.Var object at 0x7fdfcc754d68>, <mip.entities.Var object at 0x7fdfcc754da0>, <mip.entities.Var object at 0x7fdfcc754dd8>]], [[<mip.entities.Var object at 0x7fdfcc75c390>, <mip.entities.Var object at 0x7fdfcc75c908>, <mip.entities.Var object at 0x7fdfcc75c940>, <mip.entities.Var object at 0x7fdfcc75c978>, <mip.entities.Var object at 0x7fdfcc75c9b0>, <mip.entities.Var object at 0x7fdfcc75c9e8>], [<mip.entities.Var object at 0x7fdfcc75ca20>, <mip.entities.Var object at 0x7fdfcc75ca58>, <mip.entities.Var object at 0x7fdfcc75ca90>, <mip.entities.Var object at 0x7fdfcc75cac8>, <mip.entities.Var object at 0x7fdfcc75cb00>, <mip.entities.Var object at 0x7fdfcc75cb38>], [<mip.entities.Var object at 0x7fdfcc75cb70>, <mip.entities.Var object at 0x7fdfcc75cba8>, <mip.entities.Var object at 0x7fdfcc75cbe0>, <mip.entities.Var object at 0x7fdfcc75cc18>, <mip.entities.Var object at 0x7fdfcc75cc50>, <mip.entities.Var object at 0x7fdfcc75cc88>], [<mip.entities.Var object at 0x7fdfcc75ccc0>, <mip.entities.Var object at 0x7fdfcc75ccf8>, <mip.entities.Var object at 0x7fdfcc75cd30>, <mip.entities.Var object at 0x7fdfcc75cd68>, <mip.entities.Var object at 0x7fdfcc75cda0>, <mip.entities.Var object at 0x7fdfcc75cdd8>]], [[<mip.entities.Var object at 0x7fdfcc75f390>, <mip.entities.Var object at 0x7fdfcc75f908>, <mip.entities.Var object at 0x7fdfcc75f940>, <mip.entities.Var object at 0x7fdfcc75f978>, <mip.entities.Var object at 0x7fdfcc75f9b0>, <mip.entities.Var object at 0x7fdfcc75f9e8>], [<mip.entities.Var object at 0x7fdfcc75fa20>, <mip.entities.Var object at 0x7fdfcc75fa58>, <mip.entities.Var object at 0x7fdfcc75fa90>, <mip.entities.Var object at 0x7fdfcc75fac8>, <mip.entities.Var object at 0x7fdfcc75fb00>, <mip.entities.Var object at 0x7fdfcc75fb38>], [<mip.entities.Var object at 0x7fdfcc75fb70>, <mip.entities.Var object at 0x7fdfcc75fba8>, <mip.entities.Var object at 0x7fdfcc75fbe0>, <mip.entities.Var object at 0x7fdfcc75fc18>, <mip.entities.Var object at 0x7fdfcc75fc50>, <mip.entities.Var object at 0x7fdfcc75fc88>], [<mip.entities.Var object at 0x7fdfcc75fcc0>, <mip.entities.Var object at 0x7fdfcc75fcf8>, <mip.entities.Var object at 0x7fdfcc75fd30>, <mip.entities.Var object at 0x7fdfcc75fd68>, <mip.entities.Var object at 0x7fdfcc75fda0>, <mip.entities.Var object at 0x7fdfcc75fdd8>]]]Option for timeMode changed from cpu to elapsed
+maxSavedSolutions was changed from 0 to 10
+Continuous objective value is 0 - 0.00 seconds
+Cgl0004I processed model has 0 rows, 0 columns (0 integer (0 of which binary)) and 0 elements
+Cbc3007W No integer variables - nothing to do
+Cuts at root node changed objective from 0 to -1.79769e+308
+Probing was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+Gomory was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+Knapsack was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+Clique was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+OddWheel was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+MixedIntegerRounding2 was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+FlowCover was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+TwoMirCuts was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+ZeroHalf was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+
+Result - Optimal solution found
+
+Objective value:                0.00000000
+Enumerated nodes:               0
+Total iterations:               0
+Time (CPU seconds):             0.01
+Time (Wallclock seconds):       0.04
+
+Total time (CPU seconds):       0.01   (Wallclock seconds):       0.06
+
+Starting solution of the Linear programming relaxation problem using Primal Simplex
+
+Coin0506I Presolve 0 (-192) rows, 0 (-396) columns and 0 (-960) elements
+Clp0000I Optimal - objective value -1.5
+Coin0511I After Postsolve, objective -1.5, infeasibilities - dual 0 (0), primal 0 (0)
+Clp0032I Optimal objective -1.5 - 0 iterations time 0.002, Presolve 0.00
+
+Starting MIP optimization
+Option for timeMode changed from cpu to elapsed
+maxSavedSolutions was changed from 0 to 10
+Continuous objective value is -1.5 - 0.00 seconds
+Cgl0004I processed model has 192 rows, 396 columns (396 integer (396 of which binary)) and 960 elements
+Coin3009W Conflict graph built in 0.000 seconds, density: 0.126%
+Cutoff increment increased from 1e-05 to 0.0208125
+Cbc0038I Initial state - 72 integers unsatisfied sum - 36
+Cbc0038I Pass   1: suminf.    0.00000 (0) obj. -1.5 iterations 9
+Cbc0038I Pass   2: suminf.    0.00000 (0) obj. -1.5 iterations 0
+Cbc0038I Pass   3: suminf.    0.00000 (0) obj. -1.5 iterations 0
+Cbc0038I Pass   4: suminf.    0.00000 (0) obj. -1.5 iterations 0
+Cbc0038I Pass   5: suminf.    0.00000 (0) obj. -1.5 iterations 0
+Cbc0038I Pass   6: suminf.    0.00000 (0) obj. -1.5 iterations 0
+Cbc0038I Pass   7: suminf.    0.00000 (0) obj. -1.5 iterations 0
+Cbc0038I Pass   8: suminf.    0.00000 (0) obj. -1.5 iterations 0
+Cbc0038I Pass   9: suminf.    0.00000 (0) obj. -0.604167 iterations 36
+Cbc0038I Pass  10: suminf.    0.00000 (0) obj. -0.604167 iterations 0
+Cbc0038I Pass  11: suminf.    0.00000 (0) obj. -0.604167 iterations 0
+Cbc0038I Pass  12: suminf.    0.00000 (0) obj. -0.604167 iterations 0
+Cbc0038I Pass  13: suminf.    0.00000 (0) obj. -0.604167 iterations 0
+Cbc0038I Pass  14: suminf.    0.00000 (0) obj. -0.604167 iterations 0
+Cbc0038I Pass  15: suminf.    0.00000 (0) obj. -0.604167 iterations 0
+Cbc0038I Pass  16: suminf.    0.00000 (0) obj. -0.604167 iterations 0
+Cbc0038I Pass  17: suminf.    0.00000 (0) obj. -0.604167 iterations 0
+Cbc0038I Pass  18: suminf.    0.00000 (0) obj. -0.604167 iterations 0
+Cbc0038I Pass  19: suminf.    0.00000 (0) obj. -0.604167 iterations 0
+Cbc0038I Pass  20: suminf.    0.00000 (0) obj. -0.3125 iterations 38
+Cbc0038I Pass  21: suminf.    0.00000 (0) obj. -0.3125 iterations 0
+Cbc0038I Pass  22: suminf.    0.00000 (0) obj. -0.3125 iterations 0
+Cbc0038I Pass  23: suminf.    0.00000 (0) obj. -0.3125 iterations 0
+Cbc0038I Pass  24: suminf.    0.00000 (0) obj. -0.3125 iterations 0
+Cbc0038I Pass  25: suminf.    0.00000 (0) obj. -0.3125 iterations 0
+Cbc0038I Pass  26: suminf.    0.00000 (0) obj. -0.3125 iterations 0
+Cbc0038I Pass  27: suminf.    0.00000 (0) obj. -0.3125 iterations 0
+Cbc0038I Pass  28: suminf.    0.00000 (0) obj. -0.3125 iterations 0
+Cbc0038I Pass  29: suminf.    0.00000 (0) obj. -0.3125 iterations 0
+Cbc0038I Pass  30: suminf.    0.00000 (0) obj. -0.3125 iterations 0
+Cbc0038I No solution found this major pass
+Cbc0038I Before mini branch and bound, 146 integers at bound fixed and 57 continuous
+Cbc0038I Full problem 192 rows 396 columns, reduced to 0 rows 0 columns
+Cbc0038I Mini branch and bound improved solution from 1.79769e+308 to -1.5 (0.01 seconds)
+Cbc0038I After 0.01 seconds - Feasibility pump exiting with objective of -1.5 - took 0.01 seconds
+Cbc0031I 105 added rows had average density of 16.92381
+Cbc0013I At root node, 105 cuts changed objective from -1.5 to -0.68898233 in 100 passes
+Cbc0014I Cut generator 0 (Probing) - 3 row cuts average 5.7 elements, 0 column cuts (0 active)  in 0.038 seconds - new frequency is -100
+Cbc0014I Cut generator 1 (Gomory) - 2859 row cuts average 88.4 elements, 0 column cuts (0 active)  in 0.956 seconds - new frequency is 1
+Cbc0014I Cut generator 2 (Knapsack) - 3202 row cuts average 3.3 elements, 0 column cuts (0 active)  in 0.348 seconds - new frequency is 1
+Cbc0014I Cut generator 3 (Clique) - 0 row cuts average 0.0 elements, 0 column cuts (0 active)  in 0.001 seconds - new frequency is -100
+Cbc0014I Cut generator 4 (OddWheel) - 0 row cuts average 0.0 elements, 0 column cuts (0 active)  in 0.001 seconds - new frequency is -100
+Cbc0014I Cut generator 5 (MixedIntegerRounding2) - 107 row cuts average 16.3 elements, 0 column cuts (0 active)  in 0.081 seconds - new frequency is -100
+Cbc0014I Cut generator 6 (FlowCover) - 0 row cuts average 0.0 elements, 0 column cuts (0 active)  in 0.004 seconds - new frequency is -100
+Cbc0014I Cut generator 7 (TwoMirCuts) - 2237 row cuts average 6.0 elements, 0 column cuts (0 active)  in 0.057 seconds - new frequency is 1
+Cbc0010I After 0 nodes, 1 on tree, 1e+50 best solution, best possible -0.68898233 (2.67 seconds)
+Cbc0010I After 4 nodes, 5 on tree, 1e+50 best solution, best possible -0.68898233 (3.73 seconds)
+Cbc0004I Integer solution of 1 found after 12604 iterations and 11 nodes (4.35 seconds)
+Cbc0004I Integer solution of 0.83333333 found after 14184 iterations and 22 nodes (4.72 seconds)
+Cbc0010I After 23 nodes, 10 on tree, 0.83333333 best solution, best possible -0.68898233 (4.82 seconds)
+Cbc0004I Integer solution of 0.16666667 found after 14925 iterations and 24 nodes (4.84 seconds)
+Cbc0004I Integer solution of -2.0816682e-17 found after 17931 iterations and 35 nodes (5.57 seconds)
+Cbc0010I After 40 nodes, 4 on tree, -2.0816682e-17 best solution, best possible -0.68898233 (5.85 seconds)
+Cbc0010I After 58 nodes, 10 on tree, -2.0816682e-17 best solution, best possible -0.68898233 (6.91 seconds)
+Cbc0038I Full problem 192 rows 396 columns, reduced to 128 rows 119 columns
+Cbc0010I After 96 nodes, 4 on tree, -2.0816682e-17 best solution, best possible -0.68898233 (7.94 seconds)
+Cbc0010I After 114 nodes, 4 on tree, -2.0816682e-17 best solution, best possible -0.68898233 (9.01 seconds)
+Cbc0010I After 121 nodes, 5 on tree, -2.0816682e-17 best solution, best possible -0.68898233 (10.10 seconds)
+Cbc0010I After 138 nodes, 4 on tree, -2.0816682e-17 best solution, best possible -0.68898233 (11.15 seconds)
+Cbc0010I After 152 nodes, 4 on tree, -2.0816682e-17 best solution, best possible -0.68898233 (12.22 seconds)
+Cbc0010I After 172 nodes, 4 on tree, -2.0816682e-17 best solution, best possible -0.68898233 (13.22 seconds)
+Cbc0010I After 189 nodes, 2 on tree, -2.0816682e-17 best solution, best possible -0.68898233 (14.24 seconds)
+Cbc0038I Full problem 192 rows 396 columns, reduced to 112 rows 111 columns
+Cbc0010I After 205 nodes, 1 on tree, -2.0816682e-17 best solution, best possible -0.65151667 (15.41 seconds)
+Cbc0010I After 217 nodes, 9 on tree, -2.0816682e-17 best solution, best possible -0.65151667 (16.44 seconds)
+Cbc0010I After 248 nodes, 4 on tree, -2.0816682e-17 best solution, best possible -0.65151667 (17.61 seconds)
+Cbc0010I After 266 nodes, 4 on tree, -2.0816682e-17 best solution, best possible -0.65151667 (18.64 seconds)
+Cbc0010I After 278 nodes, 4 on tree, -2.0816682e-17 best solution, best possible -0.65151667 (19.65 seconds)
+Cbc0010I After 293 nodes, 4 on tree, -2.0816682e-17 best solution, best possible -0.65151667 (20.66 seconds)
+Cbc0010I After 311 nodes, 4 on tree, -2.0816682e-17 best solution, best possible -0.65151667 (21.71 seconds)
+Cbc0010I After 346 nodes, 3 on tree, -2.0816682e-17 best solution, best possible -0.65151667 (22.73 seconds)
+Cbc0010I After 362 nodes, 2 on tree, -2.0816682e-17 best solution, best possible -0.37017747 (23.73 seconds)
+Cbc0010I After 378 nodes, 2 on tree, -2.0816682e-17 best solution, best possible -0.25600137 (24.76 seconds)
+Cbc0001I Search completed - best objective -2.081668171172169e-17, took 131663 iterations and 393 nodes (25.29 seconds)
+Cbc0032I Strong branching done 4304 times (124807 iterations), fathomed 12 nodes and fixed 52 variables
+Cbc0035I Maximum depth 17, 3708 variables fixed on reduced cost
+Cuts at root node changed objective from -1.5 to -0.688982
+Probing was tried 100 times and created 3 cuts of which 0 were active after adding rounds of cuts (0.038 seconds)
+Gomory was tried 1715 times and created 24913 cuts of which 0 were active after adding rounds of cuts (3.655 seconds)
+Knapsack was tried 1719 times and created 43105 cuts of which 0 were active after adding rounds of cuts (5.505 seconds)
+Clique was tried 100 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.001 seconds)
+OddWheel was tried 100 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.001 seconds)
+MixedIntegerRounding2 was tried 100 times and created 107 cuts of which 0 were active after adding rounds of cuts (0.081 seconds)
+FlowCover was tried 100 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.004 seconds)
+TwoMirCuts
+x 7
+cnt: 0
+0
+[1, 2, 3]
+[1, 2, 3]
+[1, 2, 3]
+[1, 2, 3]
+Optimal value is-0.9999999999999992
+count is  0
+The truth table of the function is  [-1, 1, -1, -1, -1, -1, -1, -1]
+the poly rep is  [-0.75, 0.25, -0.25, -0.25, -0.25, -0.25, 0.25, 0.25]
+Its bm poly representation is  [[-0.125, -0.125, -0.125, -0.125, -0.125, -0.125], [0.041666666666666664, 0.041666666666666664, 0.041666666666666664, 0.041666666666666664, 0.041666666666666664, 0.041666666666666664], [-0.041666666666666664, -0.041666666666666664, -0.041666666666666664, -0.041666666666666664, -0.041666666666666664, -0.041666666666666664], [-0.041666666666666664, -0.041666666666666664, -0.041666666666666664, -0.041666666666666664, -0.041666666666666664, -0.041666666666666664], [-0.041666666666666664, -0.041666666666666664, -0.041666666666666664, -0.041666666666666664, -0.041666666666666664, -0.041666666666666664], [-0.041666666666666664, -0.041666666666666664, -0.041666666666666664, -0.041666666666666664, -0.041666666666666664, -0.041666666666666664], [0.041666666666666664, 0.041666666666666664, 0.041666666666666664, 0.041666666666666664, 0.041666666666666664, 0.041666666666666664], [0.041666666666666664, 0.041666666666666664, 0.041666666666666664, 0.041666666666666664, 0.041666666666666664, 0.041666666666666664]]
+t: 3
+permutation
+[(0, 1, 2), (0, 2, 1), (1, 0, 2), (1, 2, 0), (2, 0, 1), (2, 1, 0)]
+[[[<mip.entities.Var object at 0x7fdfcc763e48>, <mip.entities.Var object at 0x7fdfcc763f98>, <mip.entities.Var object at 0x7fdfcc763ef0>, <mip.entities.Var object at 0x7fdfcc763f28>, <mip.entities.Var object at 0x7fdfcc763f60>, <mip.entities.Var object at 0x7fdfcc763fd0>], [<mip.entities.Var object at 0x7fdfcc763ac8>, <mip.entities.Var object at 0x7fdfcc763a90>, <mip.entities.Var object at 0x7fdfcc763908>, <mip.entities.Var object at 0x7fdfcc763978>, <mip.entities.Var object at 0x7fdfcc763940>, <mip.entities.Var object at 0x7fdfcc763390>], [<mip.entities.Var object at 0x7fdfcc7639e8>, <mip.entities.Var object at 0x7fdfcc763e10>, <mip.entities.Var object at 0x7fdfcc76a080>, <mip.entities.Var object at 0x7fdfcc76a0b8>, <mip.entities.Var object at 0x7fdfcc76a0f0>, <mip.entities.Var object at 0x7fdfcc76a128>], [<mip.entities.Var object at 0x7fdfcc76a160>, <mip.entities.Var object at 0x7fdfcc76a198>, <mip.entities.Var object at 0x7fdfcc76a1d0>, <mip.entities.Var object at 0x7fdfcc76a208>, <mip.entities.Var object at 0x7fdfcc76a240>, <mip.entities.Var object at 0x7fdfcc76a278>]]]
+x 0
+cnt: 3
+3
+[0, 0, 0]
+[0, 1, 1]
+[0, 2, 2]
+[0, 3, 3]
+[[[<mip.entities.Var object at 0x7fdfcc763e48>, <mip.entities.Var object at 0x7fdfcc763f98>, <mip.entities.Var object at 0x7fdfcc763ef0>, <mip.entities.Var object at 0x7fdfcc763f28>, <mip.entities.Var object at 0x7fdfcc763f60>, <mip.entities.Var object at 0x7fdfcc763fd0>], [<mip.entities.Var object at 0x7fdfcc763ac8>, <mip.entities.Var object at 0x7fdfcc763a90>, <mip.entities.Var object at 0x7fdfcc763908>, <mip.entities.Var object at 0x7fdfcc763978>, <mip.entities.Var object at 0x7fdfcc763940>, <mip.entities.Var object at 0x7fdfcc763390>], [<mip.entities.Var object at 0x7fdfcc7639e8>, <mip.entities.Var object at 0x7fdfcc763e10>, <mip.entities.Var object at 0x7fdfcc76a080>, <mip.entities.Var object at 0x7fdfcc76a0b8>, <mip.entities.Var object at 0x7fdfcc76a0f0>, <mip.entities.Var object at 0x7fdfcc76a128>], [<mip.entities.Var object at 0x7fdfcc76a160>, <mip.entities.Var object at 0x7fdfcc76a198>, <mip.entities.Var object at 0x7fdfcc76a1d0>, <mip.entities.Var object at 0x7fdfcc76a208>, <mip.entities.Var object at 0x7fdfcc76a240>, <mip.entities.Var object at 0x7fdfcc76a278>]], [[<mip.entities.Var object at 0x7fdfcc76a7f0>, <mip.entities.Var object at 0x7fdfcc76ad68>, <mip.entities.Var object at 0x7fdfcc76ada0>, <mip.entities.Var object at 0x7fdfcc76add8>, <mip.entities.Var object at 0x7fdfcc76ae10>, <mip.entities.Var object at 0x7fdfcc76ae48>], [<mip.entities.Var object at 0x7fdfcc76ae80>, <mip.entities.Var object at 0x7fdfcc76aeb8>, <mip.entities.Var object at 0x7fdfcc76aef0>, <mip.entities.Var object at 0x7fdfcc76af28>, <mip.entities.Var object at 0x7fdfcc76af60>, <mip.entities.Var object at 0x7fdfcc76af98>], [<mip.entities.Var object at 0x7fdfcc76afd0>, <mip.entities.Var object at 0x7fdfcc76ad30>, <mip.entities.Var object at 0x7fdfcc765080>, <mip.entities.Var object at 0x7fdfcc7650b8>, <mip.entities.Var object at 0x7fdfcc7650f0>, <mip.entities.Var object at 0x7fdfcc765128>], [<mip.entities.Var object at 0x7fdfcc765160>, <mip.entities.Var object at 0x7fdfcc765198>, <mip.entities.Var object at 0x7fdfcc7651d0>, <mip.entities.Var object at 0x7fdfcc765208>, <mip.entities.Var object at 0x7fdfcc765240>, <mip.entities.Var object at 0x7fdfcc765278>]]]
+x 1
+cnt: 2
+2
+[1, 0, 0]
+[1, 1, 1]
+[1, 2, 2]
+[1, 3, 3]
+[[[<mip.entities.Var object at 0x7fdfcc763e48>, <mip.entities.Var object at 0x7fdfcc763f98>, <mip.entities.Var object at 0x7fdfcc763ef0>, <mip.entities.Var object at 0x7fdfcc763f28>, <mip.entities.Var object at 0x7fdfcc763f60>, <mip.entities.Var object at 0x7fdfcc763fd0>], [<mip.entities.Var object at 0x7fdfcc763ac8>, <mip.entities.Var object at 0x7fdfcc763a90>, <mip.entities.Var object at 0x7fdfcc763908>, <mip.entities.Var object at 0x7fdfcc763978>, <mip.entities.Var object at 0x7fdfcc763940>, <mip.entities.Var object at 0x7fdfcc763390>], [<mip.entities.Var object at 0x7fdfcc7639e8>, <mip.entities.Var object at 0x7fdfcc763e10>, <mip.entities.Var object at 0x7fdfcc76a080>, <mip.entities.Var object at 0x7fdfcc76a0b8>, <mip.entities.Var object at 0x7fdfcc76a0f0>, <mip.entities.Var object at 0x7fdfcc76a128>], [<mip.entities.Var object at 0x7fdfcc76a160>, <mip.entities.Var object at 0x7fdfcc76a198>, <mip.entities.Var object at 0x7fdfcc76a1d0>, <mip.entities.Var object at 0x7fdfcc76a208>, <mip.entities.Var object at 0x7fdfcc76a240>, <mip.entities.Var object at 0x7fdfcc76a278>]], [[<mip.entities.Var object at 0x7fdfcc76a7f0>, <mip.entities.Var object at 0x7fdfcc76ad68>, <mip.entities.Var object at 0x7fdfcc76ada0>, <mip.entities.Var object at 0x7fdfcc76add8>, <mip.entities.Var object at 0x7fdfcc76ae10>, <mip.entities.Var object at 0x7fdfcc76ae48>], [<mip.entities.Var object at 0x7fdfcc76ae80>, <mip.entities.Var object at 0x7fdfcc76aeb8>, <mip.entities.Var object at 0x7fdfcc76aef0>, <mip.entities.Var object at 0x7fdfcc76af28>, <mip.entities.Var object at 0x7fdfcc76af60>, <mip.entities.Var object at 0x7fdfcc76af98>], [<mip.entities.Var object at 0x7fdfcc76afd0>, <mip.entities.Var object at 0x7fdfcc76ad30>, <mip.entities.Var object at 0x7fdfcc765080>, <mip.entities.Var object at 0x7fdfcc7650b8>, <mip.entities.Var object at 0x7fdfcc7650f0>, <mip.entities.Var object at 0x7fdfcc765128>], [<mip.entities.Var object at 0x7fdfcc765160>, <mip.entities.Var object at 0x7fdfcc765198>, <mip.entities.Var object at 0x7fdfcc7651d0>, <mip.entities.Var object at 0x7fdfcc765208>, <mip.entities.Var object at 0x7fdfcc765240>, <mip.entities.Var object at 0x7fdfcc765278>]], [[<mip.entities.Var object at 0x7fdfcc7657f0>, <mip.entities.Var object at 0x7fdfcc765d68>, <mip.entities.Var object at 0x7fdfcc765da0>, <mip.entities.Var object at 0x7fdfcc765dd8>, <mip.entities.Var object at 0x7fdfcc765e10>, <mip.entities.Var object at 0x7fdfcc765e48>], [<mip.entities.Var object at 0x7fdfcc765e80>, <mip.entities.Var object at 0x7fdfcc765eb8>, <mip.entities.Var object at 0x7fdfcc765ef0>, <mip.entities.Var object at 0x7fdfcc765f28>, <mip.entities.Var object at 0x7fdfcc765f60>, <mip.entities.Var object at 0x7fdfcc765f98>], [<mip.entities.Var object at 0x7fdfcc765fd0>, <mip.entities.Var object at 0x7fdfcc765d30>, <mip.entities.Var object at 0x7fdfcc769080>, <mip.entities.Var object at 0x7fdfcc7690b8>, <mip.entities.Var object at 0x7fdfcc7690f0>, <mip.entities.Var object at 0x7fdfcc769128>], [<mip.entities.Var object at 0x7fdfcc769160>, <mip.entities.Var object at 0x7fdfcc769198>, <mip.entities.Var object at 0x7fdfcc7691d0>, <mip.entities.Var object at 0x7fdfcc769208>, <mip.entities.Var object at 0x7fdfcc769240>, <mip.entities.Var object at 0x7fdfcc769278>]]]
+x 2
+cnt: 2
+2
+[2, 0, 0]
+[2, 1, 1]
+[2, 2, 2]
+[2, 3, 3]
+[[[<mip.entities.Var object at 0x7fdfcc763e48>, <mip.entities.Var object at 0x7fdfcc763f98>, <mip.entities.Var object at 0x7fdfcc763ef0>, <mip.entities.Var object at 0x7fdfcc763f28>, <mip.entities.Var object at 0x7fdfcc763f60>, <mip.entities.Var object at 0x7fdfcc763fd0>], [<mip.entities.Var object at 0x7fdfcc763ac8>, <mip.entities.Var object at 0x7fdfcc763a90>, <mip.entities.Var object at 0x7fdfcc763908>, <mip.entities.Var object at 0x7fdfcc763978>, <mip.entities.Var object at 0x7fdfcc763940>, <mip.entities.Var object at 0x7fdfcc763390>], [<mip.entities.Var object at 0x7fdfcc7639e8>, <mip.entities.Var object at 0x7fdfcc763e10>, <mip.entities.Var object at 0x7fdfcc76a080>, <mip.entities.Var object at 0x7fdfcc76a0b8>, <mip.entities.Var object at 0x7fdfcc76a0f0>, <mip.entities.Var object at 0x7fdfcc76a128>], [<mip.entities.Var object at 0x7fdfcc76a160>, <mip.entities.Var object at 0x7fdfcc76a198>, <mip.entities.Var object at 0x7fdfcc76a1d0>, <mip.entities.Var object at 0x7fdfcc76a208>, <mip.entities.Var object at 0x7fdfcc76a240>, <mip.entities.Var object at 0x7fdfcc76a278>]], [[<mip.entities.Var object at 0x7fdfcc76a7f0>, <mip.entities.Var object at 0x7fdfcc76ad68>, <mip.entities.Var object at 0x7fdfcc76ada0>, <mip.entities.Var object at 0x7fdfcc76add8>, <mip.entities.Var object at 0x7fdfcc76ae10>, <mip.entities.Var object at 0x7fdfcc76ae48>], [<mip.entities.Var object at 0x7fdfcc76ae80>, <mip.entities.Var object at 0x7fdfcc76aeb8>, <mip.entities.Var object at 0x7fdfcc76aef0>, <mip.entities.Var object at 0x7fdfcc76af28>, <mip.entities.Var object at 0x7fdfcc76af60>, <mip.entities.Var object at 0x7fdfcc76af98>], [<mip.entities.Var object at 0x7fdfcc76afd0>, <mip.entities.Var object at 0x7fdfcc76ad30>, <mip.entities.Var object at 0x7fdfcc765080>, <mip.entities.Var object at 0x7fdfcc7650b8>, <mip.entities.Var object at 0x7fdfcc7650f0>, <mip.entities.Var object at 0x7fdfcc765128>], [<mip.entities.Var object at 0x7fdfcc765160>, <mip.entities.Var object at 0x7fdfcc765198>, <mip.entities.Var object at 0x7fdfcc7651d0>, <mip.entities.Var object at 0x7fdfcc765208>, <mip.entities.Var object at 0x7fdfcc765240>, <mip.entities.Var object at 0x7fdfcc765278>]], [[<mip.entities.Var object at 0x7fdfcc7657f0>, <mip.entities.Var object at 0x7fdfcc765d68>, <mip.entities.Var object at 0x7fdfcc765da0>, <mip.entities.Var object at 0x7fdfcc765dd8>, <mip.entities.Var object at 0x7fdfcc765e10>, <mip.entities.Var object at 0x7fdfcc765e48>], [<mip.entities.Var object at 0x7fdfcc765e80>, <mip.entities.Var object at 0x7fdfcc765eb8>, <mip.entities.Var object at 0x7fdfcc765ef0>, <mip.entities.Var object at 0x7fdfcc765f28>, <mip.entities.Var object at 0x7fdfcc765f60>, <mip.entities.Var object at 0x7fdfcc765f98>], [<mip.entities.Var object at 0x7fdfcc765fd0>, <mip.entities.Var object at 0x7fdfcc765d30>, <mip.entities.Var object at 0x7fdfcc769080>, <mip.entities.Var object at 0x7fdfcc7690b8>, <mip.entities.Var object at 0x7fdfcc7690f0>, <mip.entities.Var object at 0x7fdfcc769128>], [<mip.entities.Var object at 0x7fdfcc769160>, <mip.entities.Var object at 0x7fdfcc769198>, <mip.entities.Var object at 0x7fdfcc7691d0>, <mip.entities.Var object at 0x7fdfcc769208>, <mip.entities.Var object at 0x7fdfcc769240>, <mip.entities.Var object at 0x7fdfcc769278>]], [[<mip.entities.Var object at 0x7fdfcc7697f0>, <mip.entities.Var object at 0x7fdfcc769d68>, <mip.entities.Var object at 0x7fdfcc769da0>, <mip.entities.Var object at 0x7fdfcc769dd8>, <mip.entities.Var object at 0x7fdfcc769e10>, <mip.entities.Var object at 0x7fdfcc769e48>], [<mip.entities.Var object at 0x7fdfcc769e80>, <mip.entities.Var object at 0x7fdfcc769eb8>, <mip.entities.Var object at 0x7fdfcc769ef0>, <mip.entities.Var object at 0x7fdfcc769f28>, <mip.entities.Var object at 0x7fdfcc769f60>, <mip.entities.Var object at 0x7fdfcc769f98>], [<mip.entities.Var object at 0x7fdfcc769fd0>, <mip.entities.Var object at 0x7fdfcc769d30>, <mip.entities.Var object at 0x7fdfcc6eb080>, <mip.entities.Var object at 0x7fdfcc6eb0b8>, <mip.entities.Var object at 0x7fdfcc6eb0f0>, <mip.entities.Var object at 0x7fdfcc6eb128>], [<mip.entities.Var object at 0x7fdfcc6eb160>, <mip.entities.Var object at 0x7fdfcc6eb198>, <mip.entities.Var object at 0x7fdfcc6eb1d0>, <mip.entities.Var object at 0x7fdfcc6eb208>, <mip.entities.Var object at 0x7fdfcc6eb240>, <mip.entities.Var object at 0x7fdfcc6eb278>]]]
+x 3
+cnt: 1
+1
+[1, 2, 0]
+[1, 2, 0]
+[1, 2, 0]
+[1, 2, 0]
+[[[<mip.entities.Var object at 0x7fdfcc763e48>, <mip.entities.Var object at 0x7fdfcc763f98>, <mip.entities.Var object at 0x7fdfcc763ef0>, <mip.entities.Var object at 0x7fdfcc763f28>, <mip.entities.Var object at 0x7fdfcc763f60>, <mip.entities.Var object at 0x7fdfcc763fd0>], [<mip.entities.Var object at 0x7fdfcc763ac8>, <mip.entities.Var object at 0x7fdfcc763a90>, <mip.entities.Var object at 0x7fdfcc763908>, <mip.entities.Var object at 0x7fdfcc763978>, <mip.entities.Var object at 0x7fdfcc763940>, <mip.entities.Var object at 0x7fdfcc763390>], [<mip.entities.Var object at 0x7fdfcc7639e8>, <mip.entities.Var object at 0x7fdfcc763e10>, <mip.entities.Var object at 0x7fdfcc76a080>, <mip.entities.Var object at 0x7fdfcc76a0b8>, <mip.entities.Var object at 0x7fdfcc76a0f0>, <mip.entities.Var object at 0x7fdfcc76a128>], [<mip.entities.Var object at 0x7fdfcc76a160>, <mip.entities.Var object at 0x7fdfcc76a198>, <mip.entities.Var object at 0x7fdfcc76a1d0>, <mip.entities.Var object at 0x7fdfcc76a208>, <mip.entities.Var object at 0x7fdfcc76a240>, <mip.entities.Var object at 0x7fdfcc76a278>]], [[<mip.entities.Var object at 0x7fdfcc76a7f0>, <mip.entities.Var object at 0x7fdfcc76ad68>, <mip.entities.Var object at 0x7fdfcc76ada0>, <mip.entities.Var object at 0x7fdfcc76add8>, <mip.entities.Var object at 0x7fdfcc76ae10>, <mip.entities.Var object at 0x7fdfcc76ae48>], [<mip.entities.Var object at 0x7fdfcc76ae80>, <mip.entities.Var object at 0x7fdfcc76aeb8>, <mip.entities.Var object at 0x7fdfcc76aef0>, <mip.entities.Var object at 0x7fdfcc76af28>, <mip.entities.Var object at 0x7fdfcc76af60>, <mip.entities.Var object at 0x7fdfcc76af98>], [<mip.entities.Var object at 0x7fdfcc76afd0>, <mip.entities.Var object at 0x7fdfcc76ad30>, <mip.entities.Var object at 0x7fdfcc765080>, <mip.entities.Var object at 0x7fdfcc7650b8>, <mip.entities.Var object at 0x7fdfcc7650f0>, <mip.entities.Var object at 0x7fdfcc765128>], [<mip.entities.Var object at 0x7fdfcc765160>, <mip.entities.Var object at 0x7fdfcc765198>, <mip.entities.Var object at 0x7fdfcc7651d0>, <mip.entities.Var object at 0x7fdfcc765208>, <mip.entities.Var object at 0x7fdfcc765240>, <mip.entities.Var object at 0x7fdfcc765278>]], [[<mip.entities.Var object at 0x7fdfcc7657f0>, <mip.entities.Var object at 0x7fdfcc765d68>, <mip.entities.Var object at 0x7fdfcc765da0>, <mip.entities.Var object at 0x7fdfcc765dd8>, <mip.entities.Var object at 0x7fdfcc765e10>, <mip.entities.Var object at 0x7fdfcc765e48>], [<mip.entities.Var object at 0x7fdfcc765e80>, <mip.entities.Var object at 0x7fdfcc765eb8>, <mip.entities.Var object at 0x7fdfcc765ef0>, <mip.entities.Var object at 0x7fdfcc765f28>, <mip.entities.Var object at 0x7fdfcc765f60>, <mip.entities.Var object at 0x7fdfcc765f98>], [<mip.entities.Var object at 0x7fdfcc765fd0>, <mip.entities.Var object at 0x7fdfcc765d30>, <mip.entities.Var object at 0x7fdfcc769080>, <mip.entities.Var object at 0x7fdfcc7690b8>, <mip.entities.Var object at 0x7fdfcc7690f0>, <mip.entities.Var object at 0x7fdfcc769128>], [<mip.entities.Var object at 0x7fdfcc769160>, <mip.entities.Var object at 0x7fdfcc769198>, <mip.entities.Var object at 0x7fdfcc7691d0>, <mip.entities.Var object at 0x7fdfcc769208>, <mip.entities.Var object at 0x7fdfcc769240>, <mip.entities.Var object at 0x7fdfcc769278>]], [[<mip.entities.Var object at 0x7fdfcc7697f0>, <mip.entities.Var object at 0x7fdfcc769d68>, <mip.entities.Var object at 0x7fdfcc769da0>, <mip.entities.Var object at 0x7fdfcc769dd8>, <mip.entities.Var object at 0x7fdfcc769e10>, <mip.entities.Var object at 0x7fdfcc769e48>], [<mip.entities.Var object at 0x7fdfcc769e80>, <mip.entities.Var object at 0x7fdfcc769eb8>, <mip.entities.Var object at 0x7fdfcc769ef0>, <mip.entities.Var object at 0x7fdfcc769f28>, <mip.entities.Var object at 0x7fdfcc769f60>, <mip.entities.Var object at 0x7fdfcc769f98>], [<mip.entities.Var object at 0x7fdfcc769fd0>, <mip.entities.Var object at 0x7fdfcc769d30>, <mip.entities.Var object at 0x7fdfcc6eb080>, <mip.entities.Var object at 0x7fdfcc6eb0b8>, <mip.entities.Var object at 0x7fdfcc6eb0f0>, <mip.entities.Var object at 0x7fdfcc6eb128>], [<mip.entities.Var object at 0x7fdfcc6eb160>, <mip.entities.Var object at 0x7fdfcc6eb198>, <mip.entities.Var object at 0x7fdfcc6eb1d0>, <mip.entities.Var object at 0x7fdfcc6eb208>, <mip.entities.Var object at 0x7fdfcc6eb240>, <mip.entities.Var object at 0x7fdfcc6eb278>]], [[<mip.entities.Var object at 0x7fdfcc6eb048>, <mip.entities.Var object at 0x7fdfcc6ebd30>, <mip.entities.Var object at 0x7fdfcc6ebd68>, <mip.entities.Var object at 0x7fdfcc6ebda0>, <mip.entities.Var object at 0x7fdfcc6ebdd8>, <mip.entities.Var object at 0x7fdfcc6ebe10>], [<mip.entities.Var object at 0x7fdfcc6ebe48>, <mip.entities.Var object at 0x7fdfcc6ebe80>, <mip.entities.Var object at 0x7fdfcc6ebeb8>, <mip.entities.Var object at 0x7fdfcc6ebef0>, <mip.entities.Var object at 0x7fdfcc6ebf28>, <mip.entities.Var object at 0x7fdfcc6ebf60>], [<mip.entities.Var object at 0x7fdfcc6ebf98>, <mip.entities.Var object at 0x7fdfcc6ebfd0>, <mip.entities.Var object at 0x7fdfcc6ebcf8>, <mip.entities.Var object at 0x7fdfcc6ee080>, <mip.entities.Var object at 0x7fdfcc6ee0b8>, <mip.entities.Var object at 0x7fdfcc6ee0f0>], [<mip.entities.Var object at 0x7fdfcc6ee128>, <mip.entities.Var object at 0x7fdfcc6ee160>, <mip.entities.Var object at 0x7fdfcc6ee198>, <mip.entities.Var object at 0x7fdfcc6ee1d0>, <mip.entities.Var object at 0x7fdfcc6ee208>, <mip.entities.Var object at 0x7fdfcc6ee240>]]]
+x 4
+cnt: 2
+2
+[3, 0, 0]
+[3, 1, 1]
+[3, 2, 2]
+[3, 3, 3]
+[[[<mip.entities.Var object at 0x7fdfcc763e48>, <mip.entities.Var object at 0x7fdfcc763f98>, <mip.entities.Var object at 0x7fdfcc763ef0>, <mip.entities.Var object at 0x7fdfcc763f28>, <mip.entities.Var object at 0x7fdfcc763f60>, <mip.entities.Var object at 0x7fdfcc763fd0>], [<mip.entities.Var object at 0x7fdfcc763ac8>, <mip.entities.Var object at 0x7fdfcc763a90>, <mip.entities.Var object at 0x7fdfcc763908>, <mip.entities.Var object at 0x7fdfcc763978>, <mip.entities.Var object at 0x7fdfcc763940>, <mip.entities.Var object at 0x7fdfcc763390>], [<mip.entities.Var object at 0x7fdfcc7639e8>, <mip.entities.Var object at 0x7fdfcc763e10>, <mip.entities.Var object at 0x7fdfcc76a080>, <mip.entities.Var object at 0x7fdfcc76a0b8>, <mip.entities.Var object at 0x7fdfcc76a0f0>, <mip.entities.Var object at 0x7fdfcc76a128>], [<mip.entities.Var object at 0x7fdfcc76a160>, <mip.entities.Var object at 0x7fdfcc76a198>, <mip.entities.Var object at 0x7fdfcc76a1d0>, <mip.entities.Var object at 0x7fdfcc76a208>, <mip.entities.Var object at 0x7fdfcc76a240>, <mip.entities.Var object at 0x7fdfcc76a278>]], [[<mip.entities.Var object at 0x7fdfcc76a7f0>, <mip.entities.Var object at 0x7fdfcc76ad68>, <mip.entities.Var object at 0x7fdfcc76ada0>, <mip.entities.Var object at 0x7fdfcc76add8>, <mip.entities.Var object at 0x7fdfcc76ae10>, <mip.entities.Var object at 0x7fdfcc76ae48>], [<mip.entities.Var object at 0x7fdfcc76ae80>, <mip.entities.Var object at 0x7fdfcc76aeb8>, <mip.entities.Var object at 0x7fdfcc76aef0>, <mip.entities.Var object at 0x7fdfcc76af28>, <mip.entities.Var object at 0x7fdfcc76af60>, <mip.entities.Var object at 0x7fdfcc76af98>], [<mip.entities.Var object at 0x7fdfcc76afd0>, <mip.entities.Var object at 0x7fdfcc76ad30>, <mip.entities.Var object at 0x7fdfcc765080>, <mip.entities.Var object at 0x7fdfcc7650b8>, <mip.entities.Var object at 0x7fdfcc7650f0>, <mip.entities.Var object at 0x7fdfcc765128>], [<mip.entities.Var object at 0x7fdfcc765160>, <mip.entities.Var object at 0x7fdfcc765198>, <mip.entities.Var object at 0x7fdfcc7651d0>, <mip.entities.Var object at 0x7fdfcc765208>, <mip.entities.Var object at 0x7fdfcc765240>, <mip.entities.Var object at 0x7fdfcc765278>]], [[<mip.entities.Var object at 0x7fdfcc7657f0>, <mip.entities.Var object at 0x7fdfcc765d68>, <mip.entities.Var object at 0x7fdfcc765da0>, <mip.entities.Var object at 0x7fdfcc765dd8>, <mip.entities.Var object at 0x7fdfcc765e10>, <mip.entities.Var object at 0x7fdfcc765e48>], [<mip.entities.Var object at 0x7fdfcc765e80>, <mip.entities.Var object at 0x7fdfcc765eb8>, <mip.entities.Var object at 0x7fdfcc765ef0>, <mip.entities.Var object at 0x7fdfcc765f28>, <mip.entities.Var object at 0x7fdfcc765f60>, <mip.entities.Var object at 0x7fdfcc765f98>], [<mip.entities.Var object at 0x7fdfcc765fd0>, <mip.entities.Var object at 0x7fdfcc765d30>, <mip.entities.Var object at 0x7fdfcc769080>, <mip.entities.Var object at 0x7fdfcc7690b8>, <mip.entities.Var object at 0x7fdfcc7690f0>, <mip.entities.Var object at 0x7fdfcc769128>], [<mip.entities.Var object at 0x7fdfcc769160>, <mip.entities.Var object at 0x7fdfcc769198>, <mip.entities.Var object at 0x7fdfcc7691d0>, <mip.entities.Var object at 0x7fdfcc769208>, <mip.entities.Var object at 0x7fdfcc769240>, <mip.entities.Var object at 0x7fdfcc769278>]], [[<mip.entities.Var object at 0x7fdfcc7697f0>, <mip.entities.Var object at 0x7fdfcc769d68>, <mip.entities.Var object at 0x7fdfcc769da0>, <mip.entities.Var object at 0x7fdfcc769dd8>, <mip.entities.Var object at 0x7fdfcc769e10>, <mip.entities.Var object at 0x7fdfcc769e48>], [<mip.entities.Var object at 0x7fdfcc769e80>, <mip.entities.Var object at 0x7fdfcc769eb8>, <mip.entities.Var object at 0x7fdfcc769ef0>, <mip.entities.Var object at 0x7fdfcc769f28>, <mip.entities.Var object at 0x7fdfcc769f60>, <mip.entities.Var object at 0x7fdfcc769f98>], [<mip.entities.Var object at 0x7fdfcc769fd0>, <mip.entities.Var object at 0x7fdfcc769d30>, <mip.entities.Var object at 0x7fdfcc6eb080>, <mip.entities.Var object at 0x7fdfcc6eb0b8>, <mip.entities.Var object at 0x7fdfcc6eb0f0>, <mip.entities.Var object at 0x7fdfcc6eb128>], [<mip.entities.Var object at 0x7fdfcc6eb160>, <mip.entities.Var object at 0x7fdfcc6eb198>, <mip.entities.Var object at 0x7fdfcc6eb1d0>, <mip.entities.Var object at 0x7fdfcc6eb208>, <mip.entities.Var object at 0x7fdfcc6eb240>, <mip.entities.Var object at 0x7fdfcc6eb278>]], [[<mip.entities.Var object at 0x7fdfcc6eb048>, <mip.entities.Var object at 0x7fdfcc6ebd30>, <mip.entities.Var object at 0x7fdfcc6ebd68>, <mip.entities.Var object at 0x7fdfcc6ebda0>, <mip.entities.Var object at 0x7fdfcc6ebdd8>, <mip.entities.Var object at 0x7fdfcc6ebe10>], [<mip.entities.Var object at 0x7fdfcc6ebe48>, <mip.entities.Var object at 0x7fdfcc6ebe80>, <mip.entities.Var object at 0x7fdfcc6ebeb8>, <mip.entities.Var object at 0x7fdfcc6ebef0>, <mip.entities.Var object at 0x7fdfcc6ebf28>, <mip.entities.Var object at 0x7fdfcc6ebf60>], [<mip.entities.Var object at 0x7fdfcc6ebf98>, <mip.entities.Var object at 0x7fdfcc6ebfd0>, <mip.entities.Var object at 0x7fdfcc6ebcf8>, <mip.entities.Var object at 0x7fdfcc6ee080>, <mip.entities.Var object at 0x7fdfcc6ee0b8>, <mip.entities.Var object at 0x7fdfcc6ee0f0>], [<mip.entities.Var object at 0x7fdfcc6ee128>, <mip.entities.Var object at 0x7fdfcc6ee160>, <mip.entities.Var object at 0x7fdfcc6ee198>, <mip.entities.Var object at 0x7fdfcc6ee1d0>, <mip.entities.Var object at 0x7fdfcc6ee208>, <mip.entities.Var object at 0x7fdfcc6ee240>]], [[<mip.entities.Var object at 0x7fdfcc6ee7b8>, <mip.entities.Var object at 0x7fdfcc6eed30>, <mip.entities.Var object at 0x7fdfcc6eed68>, <mip.entities.Var object at 0x7fdfcc6eeda0>, <mip.entities.Var object at 0x7fdfcc6eedd8>, <mip.entities.Var object at 0x7fdfcc6eee10>], [<mip.entities.Var object at 0x7fdfcc6eee48>, <mip.entities.Var object at 0x7fdfcc6eee80>, <mip.entities.Var object at 0x7fdfcc6eeeb8>, <mip.entities.Var object at 0x7fdfcc6eeef0>, <mip.entities.Var object at 0x7fdfcc6eef28>, <mip.entities.Var object at 0x7fdfcc6eef60>], [<mip.entities.Var object at 0x7fdfcc6eef98>, <mip.entities.Var object at 0x7fdfcc6eefd0>, <mip.entities.Var object at 0x7fdfcc6eecf8>, <mip.entities.Var object at 0x7fdfcc6fd080>, <mip.entities.Var object at 0x7fdfcc6fd0b8>, <mip.entities.Var object at 0x7fdfcc6fd0f0>], [<mip.entities.Var object at 0x7fdfcc6fd128>, <mip.entities.Var object at 0x7fdfcc6fd160>, <mip.entities.Var object at 0x7fdfcc6fd198>, <mip.entities.Var object at 0x7fdfcc6fd1d0>, <mip.entities.Var object at 0x7fdfcc6fd208>, <mip.entities.Var object at 0x7fdfcc6fd240>]]]
+x 5
+cnt: 1
+1
+[1, 3, 0]
+[1, 3, 0]
+[1, 3, 0]
+[1, 3, 0]
+[[[<mip.entities.Var object at 0x7fdfcc763e48>, <mip.entities.Var object at 0x7fdfcc763f98>, <mip.entities.Var object at 0x7fdfcc763ef0>, <mip.entities.Var object at 0x7fdfcc763f28>, <mip.entities.Var object at 0x7fdfcc763f60>, <mip.entities.Var object at 0x7fdfcc763fd0>], [<mip.entities.Var object at 0x7fdfcc763ac8>, <mip.entities.Var object at 0x7fdfcc763a90>, <mip.entities.Var object at 0x7fdfcc763908>, <mip.entities.Var object at 0x7fdfcc763978>, <mip.entities.Var object at 0x7fdfcc763940>, <mip.entities.Var object at 0x7fdfcc763390>], [<mip.entities.Var object at 0x7fdfcc7639e8>, <mip.entities.Var object at 0x7fdfcc763e10>, <mip.entities.Var object at 0x7fdfcc76a080>, <mip.entities.Var object at 0x7fdfcc76a0b8>, <mip.entities.Var object at 0x7fdfcc76a0f0>, <mip.entities.Var object at 0x7fdfcc76a128>], [<mip.entities.Var object at 0x7fdfcc76a160>, <mip.entities.Var object at 0x7fdfcc76a198>, <mip.entities.Var object at 0x7fdfcc76a1d0>, <mip.entities.Var object at 0x7fdfcc76a208>, <mip.entities.Var object at 0x7fdfcc76a240>, <mip.entities.Var object at 0x7fdfcc76a278>]], [[<mip.entities.Var object at 0x7fdfcc76a7f0>, <mip.entities.Var object at 0x7fdfcc76ad68>, <mip.entities.Var object at 0x7fdfcc76ada0>, <mip.entities.Var object at 0x7fdfcc76add8>, <mip.entities.Var object at 0x7fdfcc76ae10>, <mip.entities.Var object at 0x7fdfcc76ae48>], [<mip.entities.Var object at 0x7fdfcc76ae80>, <mip.entities.Var object at 0x7fdfcc76aeb8>, <mip.entities.Var object at 0x7fdfcc76aef0>, <mip.entities.Var object at 0x7fdfcc76af28>, <mip.entities.Var object at 0x7fdfcc76af60>, <mip.entities.Var object at 0x7fdfcc76af98>], [<mip.entities.Var object at 0x7fdfcc76afd0>, <mip.entities.Var object at 0x7fdfcc76ad30>, <mip.entities.Var object at 0x7fdfcc765080>, <mip.entities.Var object at 0x7fdfcc7650b8>, <mip.entities.Var object at 0x7fdfcc7650f0>, <mip.entities.Var object at 0x7fdfcc765128>], [<mip.entities.Var object at 0x7fdfcc765160>, <mip.entities.Var object at 0x7fdfcc765198>, <mip.entities.Var object at 0x7fdfcc7651d0>, <mip.entities.Var object at 0x7fdfcc765208>, <mip.entities.Var object at 0x7fdfcc765240>, <mip.entities.Var object at 0x7fdfcc765278>]], [[<mip.entities.Var object at 0x7fdfcc7657f0>, <mip.entities.Var object at 0x7fdfcc765d68>, <mip.entities.Var object at 0x7fdfcc765da0>, <mip.entities.Var object at 0x7fdfcc765dd8>, <mip.entities.Var object at 0x7fdfcc765e10>, <mip.entities.Var object at 0x7fdfcc765e48>], [<mip.entities.Var object at 0x7fdfcc765e80>, <mip.entities.Var object at 0x7fdfcc765eb8>, <mip.entities.Var object at 0x7fdfcc765ef0>, <mip.entities.Var object at 0x7fdfcc765f28>, <mip.entities.Var object at 0x7fdfcc765f60>, <mip.entities.Var object at 0x7fdfcc765f98>], [<mip.entities.Var object at 0x7fdfcc765fd0>, <mip.entities.Var object at 0x7fdfcc765d30>, <mip.entities.Var object at 0x7fdfcc769080>, <mip.entities.Var object at 0x7fdfcc7690b8>, <mip.entities.Var object at 0x7fdfcc7690f0>, <mip.entities.Var object at 0x7fdfcc769128>], [<mip.entities.Var object at 0x7fdfcc769160>, <mip.entities.Var object at 0x7fdfcc769198>, <mip.entities.Var object at 0x7fdfcc7691d0>, <mip.entities.Var object at 0x7fdfcc769208>, <mip.entities.Var object at 0x7fdfcc769240>, <mip.entities.Var object at 0x7fdfcc769278>]], [[<mip.entities.Var object at 0x7fdfcc7697f0>, <mip.entities.Var object at 0x7fdfcc769d68>, <mip.entities.Var object at 0x7fdfcc769da0>, <mip.entities.Var object at 0x7fdfcc769dd8>, <mip.entities.Var object at 0x7fdfcc769e10>, <mip.entities.Var object at 0x7fdfcc769e48>], [<mip.entities.Var object at 0x7fdfcc769e80>, <mip.entities.Var object at 0x7fdfcc769eb8>, <mip.entities.Var object at 0x7fdfcc769ef0>, <mip.entities.Var object at 0x7fdfcc769f28>, <mip.entities.Var object at 0x7fdfcc769f60>, <mip.entities.Var object at 0x7fdfcc769f98>], [<mip.entities.Var object at 0x7fdfcc769fd0>, <mip.entities.Var object at 0x7fdfcc769d30>, <mip.entities.Var object at 0x7fdfcc6eb080>, <mip.entities.Var object at 0x7fdfcc6eb0b8>, <mip.entities.Var object at 0x7fdfcc6eb0f0>, <mip.entities.Var object at 0x7fdfcc6eb128>], [<mip.entities.Var object at 0x7fdfcc6eb160>, <mip.entities.Var object at 0x7fdfcc6eb198>, <mip.entities.Var object at 0x7fdfcc6eb1d0>, <mip.entities.Var object at 0x7fdfcc6eb208>, <mip.entities.Var object at 0x7fdfcc6eb240>, <mip.entities.Var object at 0x7fdfcc6eb278>]], [[<mip.entities.Var object at 0x7fdfcc6eb048>, <mip.entities.Var object at 0x7fdfcc6ebd30>, <mip.entities.Var object at 0x7fdfcc6ebd68>, <mip.entities.Var object at 0x7fdfcc6ebda0>, <mip.entities.Var object at 0x7fdfcc6ebdd8>, <mip.entities.Var object at 0x7fdfcc6ebe10>], [<mip.entities.Var object at 0x7fdfcc6ebe48>, <mip.entities.Var object at 0x7fdfcc6ebe80>, <mip.entities.Var object at 0x7fdfcc6ebeb8>, <mip.entities.Var object at 0x7fdfcc6ebef0>, <mip.entities.Var object at 0x7fdfcc6ebf28>, <mip.entities.Var object at 0x7fdfcc6ebf60>], [<mip.entities.Var object at 0x7fdfcc6ebf98>, <mip.entities.Var object at 0x7fdfcc6ebfd0>, <mip.entities.Var object at 0x7fdfcc6ebcf8>, <mip.entities.Var object at 0x7fdfcc6ee080>, <mip.entities.Var object at 0x7fdfcc6ee0b8>, <mip.entities.Var object at 0x7fdfcc6ee0f0>], [<mip.entities.Var object at 0x7fdfcc6ee128>, <mip.entities.Var object at 0x7fdfcc6ee160>, <mip.entities.Var object at 0x7fdfcc6ee198>, <mip.entities.Var object at 0x7fdfcc6ee1d0>, <mip.entities.Var object at 0x7fdfcc6ee208>, <mip.entities.Var object at 0x7fdfcc6ee240>]], [[<mip.entities.Var object at 0x7fdfcc6ee7b8>, <mip.entities.Var object at 0x7fdfcc6eed30>, <mip.entities.Var object at 0x7fdfcc6eed68>, <mip.entities.Var object at 0x7fdfcc6eeda0>, <mip.entities.Var object at 0x7fdfcc6eedd8>, <mip.entities.Var object at 0x7fdfcc6eee10>], [<mip.entities.Var object at 0x7fdfcc6eee48>, <mip.entities.Var object at 0x7fdfcc6eee80>, <mip.entities.Var object at 0x7fdfcc6eeeb8>, <mip.entities.Var object at 0x7fdfcc6eeef0>, <mip.entities.Var object at 0x7fdfcc6eef28>, <mip.entities.Var object at 0x7fdfcc6eef60>], [<mip.entities.Var object at 0x7fdfcc6eef98>, <mip.entities.Var object at 0x7fdfcc6eefd0>, <mip.entities.Var object at 0x7fdfcc6eecf8>, <mip.entities.Var object at 0x7fdfcc6fd080>, <mip.entities.Var object at 0x7fdfcc6fd0b8>, <mip.entities.Var object at 0x7fdfcc6fd0f0>], [<mip.entities.Var object at 0x7fdfcc6fd128>, <mip.entities.Var object at 0x7fdfcc6fd160>, <mip.entities.Var object at 0x7fdfcc6fd198>, <mip.entities.Var object at 0x7fdfcc6fd1d0>, <mip.entities.Var object at 0x7fdfcc6fd208>, <mip.entities.Var object at 0x7fdfcc6fd240>]], [[<mip.entities.Var object at 0x7fdfcc6fd7b8>, <mip.entities.Var object at 0x7fdfcc6fdd30>, <mip.entities.Var object at 0x7fdfcc6fdd68>, <mip.entities.Var object at 0x7fdfcc6fdda0>, <mip.entities.Var object at 0x7fdfcc6fddd8>, <mip.entities.Var object at 0x7fdfcc6fde10>], [<mip.entities.Var object at 0x7fdfcc6fde48>, <mip.entities.Var object at 0x7fdfcc6fde80>, <mip.entities.Var object at 0x7fdfcc6fdeb8>, <mip.entities.Var object at 0x7fdfcc6fdef0>, <mip.entities.Var object at 0x7fdfcc6fdf28>, <mip.entities.Var object at 0x7fdfcc6fdf60>], [<mip.entities.Var object at 0x7fdfcc6fdf98>, <mip.entities.Var object at 0x7fdfcc6fdfd0>, <mip.entities.Var object at 0x7fdfcc6fdcf8>, <mip.entities.Var object at 0x7fdfcc702080>, <mip.entities.Var object at 0x7fdfcc7020b8>, <mip.entities.Var object at 0x7fdfcc7020f0>], [<mip.entities.Var object at 0x7fdfcc702128>, <mip.entities.Var object at 0x7fdfcc702160>, <mip.entities.Var object at 0x7fdfcc702198>, <mip.entities.Var object at 0x7fdfcc7021d0>, <mip.entities.Var object at 0x7fdfcc702208>, <mip.entities.Var object at 0x7fdfcc702240>]]]
+x 6
+cnt: 1
+1
+[2, 3, 0]
+[2, 3, 0]
+[2, 3, 0]
+[2, 3, 0]
+[[[<mip.entities.Var object at 0x7fdfcc763e48>, <mip.entities.Var object at 0x7fdfcc763f98>, <mip.entities.Var object at 0x7fdfcc763ef0>, <mip.entities.Var object at 0x7fdfcc763f28>, <mip.entities.Var object at 0x7fdfcc763f60>, <mip.entities.Var object at 0x7fdfcc763fd0>], [<mip.entities.Var object at 0x7fdfcc763ac8>, <mip.entities.Var object at 0x7fdfcc763a90>, <mip.entities.Var object at 0x7fdfcc763908>, <mip.entities.Var object at 0x7fdfcc763978>, <mip.entities.Var object at 0x7fdfcc763940>, <mip.entities.Var object at 0x7fdfcc763390>], [<mip.entities.Var object at 0x7fdfcc7639e8>, <mip.entities.Var object at 0x7fdfcc763e10>, <mip.entities.Var object at 0x7fdfcc76a080>, <mip.entities.Var object at 0x7fdfcc76a0b8>, <mip.entities.Var object at 0x7fdfcc76a0f0>, <mip.entities.Var object at 0x7fdfcc76a128>], [<mip.entities.Var object at 0x7fdfcc76a160>, <mip.entities.Var object at 0x7fdfcc76a198>, <mip.entities.Var object at 0x7fdfcc76a1d0>, <mip.entities.Var object at 0x7fdfcc76a208>, <mip.entities.Var object at 0x7fdfcc76a240>, <mip.entities.Var object at 0x7fdfcc76a278>]], [[<mip.entities.Var object at 0x7fdfcc76a7f0>, <mip.entities.Var object at 0x7fdfcc76ad68>, <mip.entities.Var object at 0x7fdfcc76ada0>, <mip.entities.Var object at 0x7fdfcc76add8>, <mip.entities.Var object at 0x7fdfcc76ae10>, <mip.entities.Var object at 0x7fdfcc76ae48>], [<mip.entities.Var object at 0x7fdfcc76ae80>, <mip.entities.Var object at 0x7fdfcc76aeb8>, <mip.entities.Var object at 0x7fdfcc76aef0>, <mip.entities.Var object at 0x7fdfcc76af28>, <mip.entities.Var object at 0x7fdfcc76af60>, <mip.entities.Var object at 0x7fdfcc76af98>], [<mip.entities.Var object at 0x7fdfcc76afd0>, <mip.entities.Var object at 0x7fdfcc76ad30>, <mip.entities.Var object at 0x7fdfcc765080>, <mip.entities.Var object at 0x7fdfcc7650b8>, <mip.entities.Var object at 0x7fdfcc7650f0>, <mip.entities.Var object at 0x7fdfcc765128>], [<mip.entities.Var object at 0x7fdfcc765160>, <mip.entities.Var object at 0x7fdfcc765198>, <mip.entities.Var object at 0x7fdfcc7651d0>, <mip.entities.Var object at 0x7fdfcc765208>, <mip.entities.Var object at 0x7fdfcc765240>, <mip.entities.Var object at 0x7fdfcc765278>]], [[<mip.entities.Var object at 0x7fdfcc7657f0>, <mip.entities.Var object at 0x7fdfcc765d68>, <mip.entities.Var object at 0x7fdfcc765da0>, <mip.entities.Var object at 0x7fdfcc765dd8>, <mip.entities.Var object at 0x7fdfcc765e10>, <mip.entities.Var object at 0x7fdfcc765e48>], [<mip.entities.Var object at 0x7fdfcc765e80>, <mip.entities.Var object at 0x7fdfcc765eb8>, <mip.entities.Var object at 0x7fdfcc765ef0>, <mip.entities.Var object at 0x7fdfcc765f28>, <mip.entities.Var object at 0x7fdfcc765f60>, <mip.entities.Var object at 0x7fdfcc765f98>], [<mip.entities.Var object at 0x7fdfcc765fd0>, <mip.entities.Var object at 0x7fdfcc765d30>, <mip.entities.Var object at 0x7fdfcc769080>, <mip.entities.Var object at 0x7fdfcc7690b8>, <mip.entities.Var object at 0x7fdfcc7690f0>, <mip.entities.Var object at 0x7fdfcc769128>], [<mip.entities.Var object at 0x7fdfcc769160>, <mip.entities.Var object at 0x7fdfcc769198>, <mip.entities.Var object at 0x7fdfcc7691d0>, <mip.entities.Var object at 0x7fdfcc769208>, <mip.entities.Var object at 0x7fdfcc769240>, <mip.entities.Var object at 0x7fdfcc769278>]], [[<mip.entities.Var object at 0x7fdfcc7697f0>, <mip.entities.Var object at 0x7fdfcc769d68>, <mip.entities.Var object at 0x7fdfcc769da0>, <mip.entities.Var object at 0x7fdfcc769dd8>, <mip.entities.Var object at 0x7fdfcc769e10>, <mip.entities.Var object at 0x7fdfcc769e48>], [<mip.entities.Var object at 0x7fdfcc769e80>, <mip.entities.Var object at 0x7fdfcc769eb8>, <mip.entities.Var object at 0x7fdfcc769ef0>, <mip.entities.Var object at 0x7fdfcc769f28>, <mip.entities.Var object at 0x7fdfcc769f60>, <mip.entities.Var object at 0x7fdfcc769f98>], [<mip.entities.Var object at 0x7fdfcc769fd0>, <mip.entities.Var object at 0x7fdfcc769d30>, <mip.entities.Var object at 0x7fdfcc6eb080>, <mip.entities.Var object at 0x7fdfcc6eb0b8>, <mip.entities.Var object at 0x7fdfcc6eb0f0>, <mip.entities.Var object at 0x7fdfcc6eb128>], [<mip.entities.Var object at 0x7fdfcc6eb160>, <mip.entities.Var object at 0x7fdfcc6eb198>, <mip.entities.Var object at 0x7fdfcc6eb1d0>, <mip.entities.Var object at 0x7fdfcc6eb208>, <mip.entities.Var object at 0x7fdfcc6eb240>, <mip.entities.Var object at 0x7fdfcc6eb278>]], [[<mip.entities.Var object at 0x7fdfcc6eb048>, <mip.entities.Var object at 0x7fdfcc6ebd30>, <mip.entities.Var object at 0x7fdfcc6ebd68>, <mip.entities.Var object at 0x7fdfcc6ebda0>, <mip.entities.Var object at 0x7fdfcc6ebdd8>, <mip.entities.Var object at 0x7fdfcc6ebe10>], [<mip.entities.Var object at 0x7fdfcc6ebe48>, <mip.entities.Var object at 0x7fdfcc6ebe80>, <mip.entities.Var object at 0x7fdfcc6ebeb8>, <mip.entities.Var object at 0x7fdfcc6ebef0>, <mip.entities.Var object at 0x7fdfcc6ebf28>, <mip.entities.Var object at 0x7fdfcc6ebf60>], [<mip.entities.Var object at 0x7fdfcc6ebf98>, <mip.entities.Var object at 0x7fdfcc6ebfd0>, <mip.entities.Var object at 0x7fdfcc6ebcf8>, <mip.entities.Var object at 0x7fdfcc6ee080>, <mip.entities.Var object at 0x7fdfcc6ee0b8>, <mip.entities.Var object at 0x7fdfcc6ee0f0>], [<mip.entities.Var object at 0x7fdfcc6ee128>, <mip.entities.Var object at 0x7fdfcc6ee160>, <mip.entities.Var object at 0x7fdfcc6ee198>, <mip.entities.Var object at 0x7fdfcc6ee1d0>, <mip.entities.Var object at 0x7fdfcc6ee208>, <mip.entities.Var object at 0x7fdfcc6ee240>]], [[<mip.entities.Var object at 0x7fdfcc6ee7b8>, <mip.entities.Var object at 0x7fdfcc6eed30>, <mip.entities.Var object at 0x7fdfcc6eed68>, <mip.entities.Var object at 0x7fdfcc6eeda0>, <mip.entities.Var object at 0x7fdfcc6eedd8>, <mip.entities.Var object at 0x7fdfcc6eee10>], [<mip.entities.Var object at 0x7fdfcc6eee48>, <mip.entities.Var object at 0x7fdfcc6eee80>, <mip.entities.Var object at 0x7fdfcc6eeeb8>, <mip.entities.Var object at 0x7fdfcc6eeef0>, <mip.entities.Var object at 0x7fdfcc6eef28>, <mip.entities.Var object at 0x7fdfcc6eef60>], [<mip.entities.Var object at 0x7fdfcc6eef98>, <mip.entities.Var object at 0x7fdfcc6eefd0>, <mip.entities.Var object at 0x7fdfcc6eecf8>, <mip.entities.Var object at 0x7fdfcc6fd080>, <mip.entities.Var object at 0x7fdfcc6fd0b8>, <mip.entities.Var object at 0x7fdfcc6fd0f0>], [<mip.entities.Var object at 0x7fdfcc6fd128>, <mip.entities.Var object at 0x7fdfcc6fd160>, <mip.entities.Var object at 0x7fdfcc6fd198>, <mip.entities.Var object at 0x7fdfcc6fd1d0>, <mip.entities.Var object at 0x7fdfcc6fd208>, <mip.entities.Var object at 0x7fdfcc6fd240>]], [[<mip.entities.Var object at 0x7fdfcc6fd7b8>, <mip.entities.Var object at 0x7fdfcc6fdd30>, <mip.entities.Var object at 0x7fdfcc6fdd68>, <mip.entities.Var object at 0x7fdfcc6fdda0>, <mip.entities.Var object at 0x7fdfcc6fddd8>, <mip.entities.Var object at 0x7fdfcc6fde10>], [<mip.entities.Var object at 0x7fdfcc6fde48>, <mip.entities.Var object at 0x7fdfcc6fde80>, <mip.entities.Var object at 0x7fdfcc6fdeb8>, <mip.entities.Var object at 0x7fdfcc6fdef0>, <mip.entities.Var object at 0x7fdfcc6fdf28>, <mip.entities.Var object at 0x7fdfcc6fdf60>], [<mip.entities.Var object at 0x7fdfcc6fdf98>, <mip.entities.Var object at 0x7fdfcc6fdfd0>, <mip.entities.Var object at 0x7fdfcc6fdcf8>, <mip.entities.Var object at 0x7fdfcc702080>, <mip.entities.Var object at 0x7fdfcc7020b8>, <mip.entities.Var object at 0x7fdfcc7020f0>], [<mip.entities.Var object at 0x7fdfcc702128>, <mip.entities.Var object at 0x7fdfcc702160>, <mip.entities.Var object at 0x7fdfcc702198>, <mip.entities.Var object at 0x7fdfcc7021d0>, <mip.entities.Var object at 0x7fdfcc702208>, <mip.entities.Var object at 0x7fdfcc702240>]], [[<mip.entities.Var object at 0x7fdfcc7027b8>, <mip.entities.Var object at 0x7fdfcc702d30>, <mip.entities.Var object at 0x7fdfcc702d68>, <mip.entities.Var object at 0x7fdfcc702da0>, <mip.entities.Var object at 0x7fdfcc702dd8>, <mip.entities.Var object at 0x7fdfcc702e10>], [<mip.entities.Var object at 0x7fdfcc702e48>, <mip.entities.Var object at 0x7fdfcc702e80>, <mip.entities.Var object at 0x7fdfcc702eb8>, <mip.entities.Var object at 0x7fdfcc702ef0>, <mip.entities.Var object at 0x7fdfcc702f28>, <mip.entities.Var object at 0x7fdfcc702f60>], [<mip.entities.Var object at 0x7fdfcc702f98>, <mip.entities.Var object at 0x7fdfcc702fd0>, <mip.entities.Var object at 0x7fdfcc702cf8>, <mip.entities.Var object at 0x7fdfcc707080>, <mip.entities.Var object at 0x7fdfcc7070b8>, <mip.entities.Var object at 0x7fdfcc7070f0>], [<mip.entities.Var object at 0x7fdfcc707128>, <mip.entities.Var object at 0x7fdfcc707160>, <mip.entities.Var object at 0x7fdfcc707198>, <mip.entities.Var object at 0x7fdfcc7071d0>, <mip.entities.Var object at 0x7fdfcc707208>, <mip.entities.Var object at 0x7fdfcc707240>]]] was tried 1715 times and created 19335 cuts of which 0 were active after adding rounds of cuts (1.097 seconds)
+ZeroHalf was tried 1 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+ImplicationCuts was tried 1408 times and created 989 cuts of which 0 were active after adding rounds of cuts (0.020 seconds)
+
+Result - Optimal solution found
+
+Objective value:                -0.00000000
+Enumerated nodes:               393
+Total iterations:               131663
+Time (CPU seconds):             24.95
+Time (Wallclock seconds):       25.30
+
+Total time (CPU seconds):       24.95   (Wallclock seconds):       25.30
+
+Starting solution of the Linear programming relaxation problem using Primal Simplex
+
+Coin0506I Presolve 0 (-192) rows, 0 (-396) columns and 0 (-960) elements
+Clp0000I Optimal - objective value -1.5
+Coin0511I After Postsolve, objective -1.5, infeasibilities - dual 0 (0), primal 0 (0)
+Clp0032I Optimal objective -1.5 - 0 iterations time 0.002, Presolve 0.00, Idiot 0.00
+
+Starting MIP optimization
+Option for timeMode changed from cpu to elapsed
+maxSavedSolutions was changed from 0 to 10
+Continuous objective value is -1.5 - 0.00 seconds
+Cgl0004I processed model has 192 rows, 396 columns (396 integer (396 of which binary)) and 960 elements
+Coin3009W Conflict graph built in 0.000 seconds, density: 0.126%
+Cutoff increment increased from 1e-05 to 0.0208125
+Cbc0038I Initial state - 72 integers unsatisfied sum - 36
+Cbc0038I Pass   1: suminf.    0.00000 (0) obj. -1.5 iterations 6
+Cbc0038I Pass   2: suminf.    0.00000 (0) obj. -1.5 iterations 0
+Cbc0038I Pass   3: suminf.    0.00000 (0) obj. -1.5 iterations 0
+Cbc0038I Pass   4: suminf.    0.00000 (0) obj. -1.5 iterations 0
+Cbc0038I Pass   5: suminf.    0.00000 (0) obj. -1.5 iterations 0
+Cbc0038I Pass   6: suminf.    0.00000 (0) obj. -1.5 iterations 0
+Cbc0038I Pass   7: suminf.    0.00000 (0) obj. -1.5 iterations 0
+Cbc0038I Pass   8: suminf.    0.00000 (0) obj. -1.5 iterations 0
+Cbc0038I Pass   9: suminf.    0.00000 (0) obj. -0.604167 iterations 35
+Cbc0038I Pass  10: suminf.    0.00000 (0) obj. -0.604167 iterations 0
+Cbc0038I Pass  11: suminf.    0.00000 (0) obj. -0.604167 iterations 0
+Cbc0038I Pass  12: suminf.    0.00000 (0) obj. -0.604167 iterations 0
+Cbc0038I Pass  13: suminf.    0.00000 (0) obj. -0.604167 iterations 0
+Cbc0038I Pass  14: suminf.    0.00000 (0) obj. -0.604167 iterations 0
+Cbc0038I Pass  15: suminf.    0.00000 (0) obj. -0.604167 iterations 0
+Cbc0038I Pass  16: suminf.    0.00000 (0) obj. -0.604167 iterations 0
+Cbc0038I Pass  17: suminf.    0.00000 (0) obj. -0.604167 iterations 0
+Cbc0038I Pass  18: suminf.    0.00000 (0) obj. -0.604167 iterations 0
+Cbc0038I Pass  19: suminf.    0.00000 (0) obj. -0.604167 iterations 0
+Cbc0038I Pass  20: suminf.    0.00000 (0) obj. -0.3125 iterations 44
+Cbc0038I Pass  21: suminf.    0.00000 (0) obj. -0.3125 iterations 1
+Cbc0038I Pass  22: suminf.    0.00000 (0) obj. -0.3125 iterations 0
+Cbc0038I Pass  23: suminf.    0.00000 (0) obj. -0.3125 iterations 0
+Cbc0038I Pass  24: suminf.    0.00000 (0) obj. -0.3125 iterations 0
+Cbc0038I Pass  25: suminf.    0.00000 (0) obj. -0.3125 iterations 0
+Cbc0038I Pass  26: suminf.    0.00000 (0) obj. -0.3125 iterations 0
+Cbc0038I Pass  27: suminf.    0.00000 (0) obj. -0.3125 iterations 0
+Cbc0038I Pass  28: suminf.    0.00000 (0) obj. -0.3125 iterations 0
+Cbc0038I Pass  29: suminf.    0.00000 (0) obj. -0.3125 iterations 0
+Cbc0038I Pass  30: suminf.    0.00000 (0) obj. -0.3125 iterations 0
+Cbc0038I No solution found this major pass
+Cbc0038I Before mini branch and bound, 146 integers at bound fixed and 64 continuous
+Cbc0038I Full problem 192 rows 396 columns, reduced to 0 rows 0 columns
+Cbc0038I Mini branch and bound improved solution from 1.79769e+308 to -1.5 (0.01 seconds)
+Cbc0038I After 0.01 seconds - Feasibility pump exiting with objective of -1.5 - took 0.01 seconds
+Cbc0031I 106 added rows had average density of 10.830189
+Cbc0013I At root node, 106 cuts changed objective from -1.5 to -0.5774587 in 100 passes
+Cbc0014I Cut generator 0 (Probing) - 3 row cuts average 6.0 elements, 0 column cuts (0 active)  in 0.035 seconds - new frequency is -100
+Cbc0014I Cut generator 1 (Gomory) - 2962 row cuts average 78.8 elements, 0 column cuts (0 active)  in 0.926 seconds - new frequency is 1
+Cbc0014I Cut generator 2 (Knapsack) - 3192 row cuts average 3.3 elements, 0 column cuts (0 active)  in 0.344 seconds - new frequency is 1
+Cbc0014I Cut generator 3 (Clique) - 0 row cuts average 0.0 elements, 0 column cuts (0 active)  in 0.001 seconds - new frequency is -100
+Cbc0014I Cut generator 4 (OddWheel) - 0 row cuts average 0.0 elements, 0 column cuts (0 active)  in 0.001 seconds - new frequency is -100
+Cbc0014I Cut generator 5 (MixedIntegerRounding2) - 101 row cuts average 20.1 elements, 0 column cuts (0 active)  in 0.058 seconds - new frequency is -100
+Cbc0014I Cut generator 6 (FlowCover) - 0 row cuts average 0.0 elements, 0 column cuts (0 active)  in 0.004 seconds - new frequency is -100
+Cbc0014I Cut generator 7 (TwoMirCuts) - 2360 row cuts average 5.9 elements, 0 column cuts (0 active)  in 0.054 seconds - new frequency is 1
+Cbc0010I After 0 nodes, 1 on tree, 1e+50 best solution, best possible -0.5774587 (2.56 seconds)
+Cbc0010I After 6 nodes, 7 on tree, 1e+50 best solution, best possible -0.5774587 (3.61 seconds)
+Cbc0004I Integer solution of 1 found after 15141 iterations and 15 nodes (3.94 seconds)
+Cbc0038I Full problem 192 rows 396 columns, reduced to 69 rows 72 columns
+Cbc0016I Integer solution of 2.0816682e-17 found by strong branching after 15318 iterations and 17 nodes (4.06 seconds)
+Cbc0010I After 36 nodes, 5 on tree, 2.0816682e-17 best solution, best possible -0.5774587 (4.71 seconds)
+Cbc0038I Full problem 192 rows 396 columns, reduced to 114 rows 103 columns
+Cbc0010I After 49 nodes, 6 on tree, 2.0816682e-17 best solution, best possible -0.5774587 (5.84 seconds)
+Cbc0010I After 62 nodes, 3 on tree, 2.0816682e-17 best solution, best possible -0.5774587 (6.89 seconds)
+Cbc0010I After 71 nodes, 6 on tree, 2.0816682e-17 best solution, best possible -0.5774587 (7.89 seconds)
+Cbc0038I Full problem 192 rows 396 columns, reduced to 151 rows 135 columns - 23 fixed gives 4, 5 - ok now
+Cbc0038I Full problem 192 rows 396 columns, reduced to 4 rows 5 columns
+Cbc0010I After 91 nodes, 11 on tree, 2.0816682e-17 best solution, best possible -0.5774587 (8.90 seconds)
+Cbc0010I After 124 nodes, 3 on tree, 2.0816682e-17 best solution, best possible -0.5774587 (10.02 seconds)
+Cbc0010I After 136 nodes, 3 on tree, 2.0816682e-17 best solution, best possible -0.5774587 (11.04 seconds)
+Cbc0010I After 156 nodes, 5 on tree, 2.0816682e-17 best solution, best possible -0.5774587 (12.15 seconds)
+Cbc0010I After 181 nodes, 2 on tree, 2.0816682e-17 best solution, best possible -0.5774587 (13.21 seconds)
+Cbc0010I After 189 nodes, 4 on tree, 2.0816682e-17 best solution, best possible -0.5482248 (14.34 seconds)
+Cbc0010I After 207 nodes, 4 on tree, 2.0816682e-17 best solution, best possible -0.5482248 (15.39 seconds)
+Cbc0010I After 234 nodes, 6 on tree, 2.0816682e-17 best solution, best possible -0.5482248 (16.41 seconds)
+Cbc0010I After 255 nodes, 4 on tree, 2.0816682e-17 best solution, best possible -0.487887 (17.56 seconds)
+Cbc0010I After 267 nodes, 2 on tree, 2.0816682e-17 best solution, best possible -0.487887 (18.69 seconds)
+Cbc0010I After 284 nodes, 3 on tree, 2.0816682e-17 best solution, best possible -0.42419611 (19.73 seconds)
+Cbc0001I Search completed - best objective 2.081668171172169e-17, took 108204 iterations and 302 nodes (20.41 seconds)
+Cbc0032I Strong branching done 4066 times (118221 iterations), fathomed 19 nodes and fixed 50 variables
+Cbc0035I Maximum depth 16, 2351 variables fixed on reduced cost
+Cuts at root node changed objective from -1.5 to -0.577459
+Probing was tried 100 times and created 3 cuts of which 0 were active after adding rounds of cuts (0.035 seconds)
+Gomory was tried 1350 times and created 20239 cuts of which 0 were active after adding rounds of cuts (3.025 seconds)
+Knapsack was tried 1355 times and created 37280 cuts of which 0 were active after adding rounds of cuts (4.066 seconds)
+Clique was tried 100 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.001 seconds)
+OddWheel was tried 100 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.001 seconds)
+MixedIntegerRounding2 was tried 100 times and created 101 cuts of which 0 were active after adding rounds of cuts (0.058 seconds)
+FlowCover was tried 100 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.004 seconds)
+TwoMirCuts was tried 1350 times and created 17029 cuts of which 0 were active after adding rounds of cuts (0.987 seconds)
+ZeroHalf was tried 1 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+ImplicationCuts was tried 1079 times and created 342 cuts of which 0 were active after adding rounds of cuts (0.013 seconds)
+
+Result - Optimal solution found
+
+Objective value:                0.00000000
+Enumerated nodes:               302
+Total iterations:               108204
+Time (CPU seconds):             20.01
+Time (Wallclock seconds):       20.
+x 7
+cnt: 0
+0
+[1, 2, 3]
+[1, 2, 3]
+[1, 2, 3]
+[1, 2, 3]
+Optimal value is-0.9999999999999992
+count is  0
+The truth table of the function is  [1, 1, -1, -1, -1, -1, -1, -1]
+the poly rep is  [-0.5, 0.0, -0.5, 0.0, -0.5, 0.0, 0.5, 0.0]
+Its bm poly representation is  [[-0.25, -0.25], [0.0, 0.0], [-0.25, -0.25], [0.0, 0.0], [-0.25, -0.25], [0.0, 0.0], [0.25, 0.25], [0.0, 0.0]]
+t: 2
+permutation
+[(0, 1), (1, 0)]
+[[[<mip.entities.Var object at 0x7fdfcc7180f0>, <mip.entities.Var object at 0x7fdfcc718128>], [<mip.entities.Var object at 0x7fdfcc718160>, <mip.entities.Var object at 0x7fdfcc718198>], [<mip.entities.Var object at 0x7fdfcc7181d0>, <mip.entities.Var object at 0x7fdfcc718208>], [<mip.entities.Var object at 0x7fdfcc718240>, <mip.entities.Var object at 0x7fdfcc718278>]]]
+x 0
+cnt: 2
+2
+[0, 0]
+[1, 1]
+[2, 2]
+[3, 3]
+[[[<mip.entities.Var object at 0x7fdfcc7180f0>, <mip.entities.Var object at 0x7fdfcc718128>], [<mip.entities.Var object at 0x7fdfcc718160>, <mip.entities.Var object at 0x7fdfcc718198>], [<mip.entities.Var object at 0x7fdfcc7181d0>, <mip.entities.Var object at 0x7fdfcc718208>], [<mip.entities.Var object at 0x7fdfcc718240>, <mip.entities.Var object at 0x7fdfcc718278>]], [[<mip.entities.Var object at 0x7fdfcc718470>, <mip.entities.Var object at 0x7fdfcc718668>], [<mip.entities.Var object at 0x7fdfcc7186a0>, <mip.entities.Var object at 0x7fdfcc7186d8>], [<mip.entities.Var object at 0x7fdfcc718710>, <mip.entities.Var object at 0x7fdfcc718748>], [<mip.entities.Var object at 0x7fdfcc718780>, <mip.entities.Var object at 0x7fdfcc7187b8>]]]
+x 1
+cnt: 1
+1
+[1, 0]
+[1, 0]
+[1, 0]
+[1, 0]
+[[[<mip.entities.Var object at 0x7fdfcc7180f0>, <mip.entities.Var object at 0x7fdfcc718128>], [<mip.entities.Var object at 0x7fdfcc718160>, <mip.entities.Var object at 0x7fdfcc718198>], [<mip.entities.Var object at 0x7fdfcc7181d0>, <mip.entities.Var object at 0x7fdfcc718208>], [<mip.entities.Var object at 0x7fdfcc718240>, <mip.entities.Var object at 0x7fdfcc718278>]], [[<mip.entities.Var object at 0x7fdfcc718470>, <mip.entities.Var object at 0x7fdfcc718668>], [<mip.entities.Var object at 0x7fdfcc7186a0>, <mip.entities.Var object at 0x7fdfcc7186d8>], [<mip.entities.Var object at 0x7fdfcc718710>, <mip.entities.Var object at 0x7fdfcc718748>], [<mip.entities.Var object at 0x7fdfcc718780>, <mip.entities.Var object at 0x7fdfcc7187b8>]], [[<mip.entities.Var object at 0x7fdfcc7189b0>, <mip.entities.Var object at 0x7fdfcc718ba8>], [<mip.entities.Var object at 0x7fdfcc718be0>, <mip.entities.Var object at 0x7fdfcc718c18>], [<mip.entities.Var object at 0x7fdfcc718c50>, <mip.entities.Var object at 0x7fdfcc718c88>], [<mip.entities.Var object at 0x7fdfcc718cc0>, <mip.entities.Var object at 0x7fdfcc718cf8>]]]
+x 2
+cnt: 1
+1
+[2, 0]
+[2, 0]
+[2, 0]
+[2, 0]
+[[[<mip.entities.Var object at 0x7fdfcc7180f0>, <mip.entities.Var object at 0x7fdfcc718128>], [<mip.entities.Var object at 0x7fdfcc718160>, <mip.entities.Var object at 0x7fdfcc718198>], [<mip.entities.Var object at 0x7fdfcc7181d0>, <mip.entities.Var object at 0x7fdfcc718208>], [<mip.entities.Var object at 0x7fdfcc718240>, <mip.entities.Var object at 0x7fdfcc718278>]], [[<mip.entities.Var object at 0x7fdfcc718470>, <mip.entities.Var object at 0x7fdfcc718668>], [<mip.entities.Var object at 0x7fdfcc7186a0>, <mip.entities.Var object at 0x7fdfcc7186d8>], [<mip.entities.Var object at 0x7fdfcc718710>, <mip.entities.Var object at 0x7fdfcc718748>], [<mip.entities.Var object at 0x7fdfcc718780>, <mip.entities.Var object at 0x7fdfcc7187b8>]], [[<mip.entities.Var object at 0x7fdfcc7189b0>, <mip.entities.Var object at 0x7fdfcc718ba8>], [<mip.entities.Var object at 0x7fdfcc718be0>, <mip.entities.Var object at 0x7fdfcc718c18>], [<mip.entities.Var object at 0x7fdfcc718c50>, <mip.entities.Var object at 0x7fdfcc718c88>], [<mip.entities.Var object at 0x7fdfcc718cc0>, <mip.entities.Var object at 0x7fdfcc718cf8>]], [[<mip.entities.Var object at 0x7fdfcc713048>, <mip.entities.Var object at 0x7fdfcc713128>], [<mip.entities.Var object at 0x7fdfcc713160>, <mip.entities.Var object at 0x7fdfcc713198>], [<mip.entities.Var object at 0x7fdfcc7131d0>, <mip.entities.Var object at 0x7fdfcc713208>], [<mip.entities.Var object at 0x7fdfcc713240>, <mip.entities.Var object at 0x7fdfcc713278>]]]
+x 3
+cnt: 0
+0
+[1, 2]
+[1, 2]
+[1, 2]
+[1, 2]
+[[[<mip.entities.Var object at 0x7fdfcc7180f0>, <mip.entities.Var object at 0x7fdfcc718128>], [<mip.entities.Var object at 0x7fdfcc718160>, <mip.entities.Var object at 0x7fdfcc718198>], [<mip.entities.Var object at 0x7fdfcc7181d0>, <mip.entities.Var object at 0x7fdfcc718208>], [<mip.entities.Var object at 0x7fdfcc718240>, <mip.entities.Var object at 0x7fdfcc718278>]], [[<mip.entities.Var object at 0x7fdfcc718470>, <mip.entities.Var object at 0x7fdfcc718668>], [<mip.entities.Var object at 0x7fdfcc7186a0>, <mip.entities.Var object at 0x7fdfcc7186d8>], [<mip.entities.Var object at 0x7fdfcc718710>, <mip.entities.Var object at 0x7fdfcc718748>], [<mip.entities.Var object at 0x7fdfcc718780>, <mip.entities.Var object at 0x7fdfcc7187b8>]], [[<mip.entities.Var object at 0x7fdfcc7189b0>, <mip.entities.Var object at 0x7fdfcc718ba8>], [<mip.entities.Var object at 0x7fdfcc718be0>, <mip.entities.Var object at 0x7fdfcc718c18>], [<mip.entities.Var object at 0x7fdfcc718c50>, <mip.entities.Var object at 0x7fdfcc718c88>], [<mip.entities.Var object at 0x7fdfcc718cc0>, <mip.entities.Var object at 0x7fdfcc718cf8>]], [[<mip.entities.Var object at 0x7fdfcc713048>, <mip.entities.Var object at 0x7fdfcc713128>], [<mip.entities.Var object at 0x7fdfcc713160>, <mip.entities.Var object at 0x7fdfcc713198>], [<mip.entities.Var object at 0x7fdfcc7131d0>, <mip.entities.Var object at 0x7fdfcc713208>], [<mip.entities.Var object at 0x7fdfcc713240>, <mip.entities.Var object at 0x7fdfcc713278>]], [[<mip.entities.Var object at 0x7fdfcc713470>, <mip.entities.Var object at 0x7fdfcc713668>], [<mip.entities.Var object at 0x7fdfcc7136a0>, <mip.entities.Var object at 0x7fdfcc7136d8>], [<mip.entities.Var object at 0x7fdfcc713710>, <mip.entities.Var object at 0x7fdfcc713748>], [<mip.entities.Var object at 0x7fdfcc713780>, <mip.entities.Var object at 0x7fdfcc7137b8>]]]
+x 4
+cnt: 1
+1
+[3, 0]
+[3, 0]
+[3, 0]
+[3, 0]
+[[[<mip.entities.Var object at 0x7fdfcc7180f0>, <mip.entities.Var object at 0x7fdfcc718128>], [<mip.entities.Var object at 0x7fdfcc718160>, <mip.entities.Var object at 0x7fdfcc718198>], [<mip.entities.Var object at 0x7fdfcc7181d0>, <mip.entities.Var object at 0x7fdfcc718208>], [<mip.entities.Var object at 0x7fdfcc718240>, <mip.entities.Var object at 0x7fdfcc718278>]], [[<mip.entities.Var object at 0x7fdfcc718470>, <mip.entities.Var object at 0x7fdfcc718668>], [<mip.entities.Var object at 0x7fdfcc7186a0>, <mip.entities.Var object at 0x7fdfcc7186d8>], [<mip.entities.Var object at 0x7fdfcc718710>, <mip.entities.Var object at 0x7fdfcc718748>], [<mip.entities.Var object at 0x7fdfcc718780>, <mip.entities.Var object at 0x7fdfcc7187b8>]], [[<mip.entities.Var object at 0x7fdfcc7189b0>, <mip.entities.Var object at 0x7fdfcc718ba8>], [<mip.entities.Var object at 0x7fdfcc718be0>, <mip.entities.Var object at 0x7fdfcc718c18>], [<mip.entities.Var object at 0x7fdfcc718c50>, <mip.entities.Var object at 0x7fdfcc718c88>], [<mip.entities.Var object at 0x7fdfcc718cc0>, <mip.entities.Var object at 0x7fdfcc718cf8>]], [[<mip.entities.Var object at 0x7fdfcc713048>, <mip.entities.Var object at 0x7fdfcc713128>], [<mip.entities.Var object at 0x7fdfcc713160>, <mip.entities.Var object at 0x7fdfcc713198>], [<mip.entities.Var object at 0x7fdfcc7131d0>, <mip.entities.Var object at 0x7fdfcc713208>], [<mip.entities.Var object at 0x7fdfcc713240>, <mip.entities.Var object at 0x7fdfcc713278>]], [[<mip.entities.Var object at 0x7fdfcc713470>, <mip.entities.Var object at 0x7fdfcc713668>], [<mip.entities.Var object at 0x7fdfcc7136a0>, <mip.entities.Var object at 0x7fdfcc7136d8>], [<mip.entities.Var object at 0x7fdfcc713710>, <mip.entities.Var object at 0x7fdfcc713748>], [<mip.entities.Var object at 0x7fdfcc713780>, <mip.entities.Var object at 0x7fdfcc7137b8>]], [[<mip.entities.Var object at 0x7fdfcc7139b0>, <mip.entities.Var object at 0x7fdfcc713ba8>], [<mip.entities.Var object at 0x7fdfcc713be0>, <mip.entities.Var object at 0x7fdfcc713c18>], [<mip.entities.Var object at 0x7fdfcc713c50>, <mip.entities.Var object at 0x7fdfcc713c88>], [<mip.entities.Var object at 0x7fdfcc713cc0>, <mip.entities.Var object at 0x7fdfcc713cf8>]]]44
+
+Total time (CPU seconds):       20.01   (Wallclock seconds):       20.44
+
+Starting solution of the Linear programming relaxation problem using Primal Simplex
+
+Coin0506I Presolve 0 (-56) rows, 0 (-136) columns and 0 (-224) elements
+Clp0000I Optimal - objective value -1
+Coin0511I After Postsolve, objective -1, infeasibilities - dual 0 (0), primal 0 (0)
+Clp0032I Optimal objective -1 - 0 iterations time 0.002, Presolve 0.00, Idiot 0.00
+
+Starting MIP optimization
+Option for timeMode changed from cpu to elapsed
+maxSavedSolutions was changed from 0 to 10
+Continuous objective value is -1 - 0.00 seconds
+Cgl0003I 0 fixed, 0 tightened bounds, 0 strengthened rows, 152 substitutions
+Cgl0004I processed model has 38 rows, 56 columns (56 integer (56 of which binary)) and 146 elements
+Coin3009W Conflict graph built in 0.000 seconds, density: 1.896%
+Cutoff increment increased from 1e-05 to 0.1249
+Cbc0038I Initial state - 8 integers unsatisfied sum - 4
+Cbc0038I Pass   1: suminf.    1.00000 (2) obj. -1 iterations 0
+Cbc0038I Pass   2: suminf.    1.00000 (2) obj. -1 iterations 0
+Cbc0038I Pass   3: suminf.    1.00000 (2) obj. -0.75 iterations 8
+Cbc0038I Pass   4: suminf.    1.00000 (2) obj. -0.75 iterations 0
+Cbc0038I Pass   5: suminf.    1.00000 (2) obj. -0.75 iterations 0
+Cbc0038I Pass   6: suminf.    1.50000 (3) obj. -0.75 iterations 7
+Cbc0038I Pass   7: suminf.    1.50000 (3) obj. -0.75 iterations 0
+Cbc0038I Pass   8: suminf.    1.50000 (3) obj. -0.75 iterations 0
+Cbc0038I Pass   9: suminf.    2.50000 (5) obj. -0.25 iterations 7
+Cbc0038I Pass  10: suminf.    2.50000 (5) obj. -0.25 iterations 1
+Cbc0038I Pass  11: suminf.    2.50000 (5) obj. -0.25 iterations 0
+Cbc0038I Pass  12: suminf.    2.00000 (4) obj. 0.75 iterations 7
+Cbc0038I Pass  13: suminf.    2.00000 (4) obj. 0.75 iterations 0
+Cbc0038I Pass  14: suminf.    2.00000 (4) obj. 0.75 iterations 0
+Cbc0038I Pass  15: suminf.    2.50000 (5) obj. 0.5 iterations 8
+Cbc0038I Pass  16: suminf.    2.50000 (5) obj. 0.5 iterations 0
+Cbc0038I Pass  17: suminf.    2.50000 (5) obj. 0.5 iterations 1
+Cbc0038I Pass  18: suminf.    2.50000 (5) obj. 0.5 iterations 5
+Cbc0038I Pass  19: suminf.    2.50000 (5) obj. 0.5 iterations 4
+Cbc0038I Pass  20: suminf.    2.50000 (5) obj. 0.5 iterations 2
+Cbc0038I Pass  21: suminf.    2.50000 (5) obj. 0.5 iterations 1
+Cbc0038I Pass  22: suminf.    2.00000 (4) obj. 0.5 iterations 8
+Cbc0038I Pass  23: suminf.    2.00000 (4) obj. 0.5 iterations 1
+Cbc0038I Pass  24: suminf.    2.00000 (4) obj. 0.5 iterations 1
+Cbc0038I Pass  25: suminf.    1.50000 (3) obj. 0.25 iterations 1
+Cbc0038I Pass  26: suminf.    1.50000 (3) obj. 0.25 iterations 1
+Cbc0038I Pass  27: suminf.    1.50000 (3) obj. 0.25 iterations 1
+Cbc0038I Pass  28: suminf.    1.00000 (2) obj. 0.25 iterations 5
+Cbc0038I Pass  29: suminf.    1.00000 (2) obj. 0.25 iterations 0
+Cbc0038I Pass  30: suminf.    1.00000 (2) obj. 0.25 iterations 1
+Cbc0038I Rounding solution of 0.25 is better than previous of 1e+50
+
+Cbc0038I Before mini branch and bound, 20 integers at bound fixed and 0 continuous
+Cbc0038I Full problem 38 rows 56 columns, reduced to 0 rows 0 columns
+Cbc0038I Mini branch and bound improved solution from 0.25 to 0 (0.01 seconds)
+Cbc0038I Round again with cutoff of -0.21241
+Cbc0038I Pass  30: suminf.    1.00000 (2) obj. -1 iterations 0
+Cbc0038I Pass  31: suminf.    1.00000 (2) obj. -1 iterations 0
+Cbc0038I Pass  32: suminf.    1.00000 (2) obj. -1 iterations 7
+Cbc0038I Pass  33: suminf.    1.00000 (2) obj. -1 iterations 1
+Cbc0038I Pass  34: suminf.    2.87590 (8) obj. -0.21241 iterations 10
+Cbc0038I Pass  35: suminf.    2.50000 (5) obj. -0.25 iterations 1
+Cbc0038I Pass  36: suminf.    2.50000 (5) obj. -0.25 iterations 0
+Cbc0038I Pass  37: suminf.    2.00000 (4) obj. -0.5 iterations 1
+Cbc0038I Pass  38: suminf.    2.00000 (4) obj. -0.5 iterations 0
+Cbc0038I Pass  39: suminf.    2.00000 (4) obj. -0.5 iterations 0
+Cbc0038I Pass  40: suminf.    3.00000 (6) obj. -0.25 iterations 4
+Cbc0038I Pass  41: suminf.    3.00000 (6) obj. -0.25 iterations 0
+Cbc0038I Pass  42: suminf.    3.00000 (6) obj. -0.25 iterations 0
+Cbc0038I Pass  43: suminf.    2.50000 (5) obj. -0.5 iterations 2
+Cbc0038I Pass  44: suminf.    2.50000 (5) obj. -0.5 iterations 0
+Cbc0038I Pass  45: suminf.    2.50000 (5) obj. -0.5 iterations 0
+Cbc0038I Pass  46: suminf.    2.00000 (4) obj. -0.5 iterations 2
+Cbc0038I Pass  47: suminf.    2.00000 (4) obj. -0.5 iterations 0
+Cbc0038I Pass  48: suminf.    2.00000 (4) obj. -0.5 iterations 0
+Cbc0038I Pass  49: suminf.    3.00000 (6) obj. -0.5 iterations 2
+Cbc0038I Pass  50: suminf.    1.50000 (3) obj. -0.5 iterations 2
+Cbc0038I Pass  51: suminf.    1.50000 (3) obj. -0.5 iterations 1
+Cbc0038I Pass  52: suminf.    1.50000 (3) obj. -0.5 iterations 0
+Cbc0038I Pass  53: suminf.    1.72554 (5) obj. -0.21241 iterations 5
+Cbc0038I Pass  54: suminf.    1.50000 (3) obj. -0.25 iterations 2
+Cbc0038I Pass  55: suminf.    1.50000 (3) obj. -0.25 iterations 0
+Cbc0038I Pass  56: suminf.    3.00000 (6) obj. -0.25 iterations 6
+Cbc0038I Pass  57: suminf.    1.50000 (3) obj. -0.25 iterations 2
+Cbc0038I Pass  58: suminf.    1.50000 (3) obj. -0.5 iterations 6
+Cbc0038I Pass  59: suminf.    1.50000 (3) obj. -0.5 iterations 1
+Cbc0038I No solution found this major pass
+Cbc0038I Before mini branch and bound, 26 integers at bound fixed and 0 continuous
+Cbc0038I Full problem 38 rows 56 columns, reduced to 2 rows 4 columns
+Cbc0038I Mini branch and bound improved solution from 0 to -0.25 (0.01 seconds)
+Cbc0038I Round again with cutoff of -0.49992
+Cbc0038I Pass  59: suminf.    1.00000 (2) obj. -1 iterations 0
+Cbc0038I Pass  60: suminf.    1.00000 (2) obj. -1 iterations 0
+Cbc0038I Pass  61: suminf.    3.00000 (6) obj. -0.5 iterations 10
+Cbc0038I Pass  62: suminf.    3.00000 (6) obj. -0.5 iterations 0
+Cbc0038I Pass  63: suminf.    3.00000 (6) obj. -0.5 iterations 1
+Cbc0038I Pass  64: suminf.    3.50056 (11) obj. -0.49992 iterations 8
+Cbc0038I Pass  65: suminf.    3.50000 (7) obj. -0.5 iterations 1
+Cbc0038I Pass  66: suminf.    2.00000 (4) obj. -0.5 iterations 2
+Cbc0038I Pass  67: suminf.    2.00000 (4) obj. -0.5 iterations 0
+Cbc0038I Pass  68: suminf.    2.00000 (4) obj. -0.5 iterations 1
+Cbc0038I Pass  69: suminf.    3.74944 (8) obj. -0.49992 iterations 8
+Cbc0038I Pass  70: suminf.    3.74944 (8) obj. -0.49992 iterations 2
+Cbc0038I Pass  71: suminf.    1.50000 (3) obj. -0.75 iterations 3
+Cbc0038I Pass  72: suminf.    1.50000 (3) obj. -0.75 iterations 3
+Cbc0038I Pass  73: suminf.    1.50000 (3) obj. -0.75 iterations 2
+Cbc0038I Pass  74: suminf.    1.50000 (3) obj. -0.75 iterations 2
+Cbc0038I Pass  75: suminf.    4.74944 (10) obj. -0.49992 iterations 9
+Cbc0038I Pass  76: suminf.    4.74944 (10) obj. -0.49992 iterations 0
+Cbc0038I Pass  77: suminf.    2.50000 (5) obj. -0.75 iterations 2
+Cbc0038I Pass  78: suminf.    2.50000 (5) obj. -0.75 iterations 0
+Cbc0038I Pass  79: suminf.    2.50000 (5) obj. -0.75 iterations 1
+Cbc0038I Pass  80: suminf.    4.24944 (9) obj. -0.49992 iterations 3
+Cbc0038I Pass  81: suminf.    4.24944 (9) obj. -0.49992 iterations 0
+Cbc0038I Pass  82: suminf.    2.00000 (4) obj. -0.75 iterations 3
+Cbc0038I Pass  83: suminf.    2.00000 (4) obj. -0.75 iterations 2
+Cbc0038I Pass  84: suminf.    2.00000 (4) obj. -0.75 iterations 2
+Cbc0038I Pass  85: suminf.    2.50000 (5) obj. -0.5 iterations 3
+Cbc0038I Pass  86: suminf.    2.50000 (5) obj. -0.5 iterations 2
+Cbc0038I Pass  87: suminf.    2.50000 (5) obj. -0.5 iterations 1
+Cbc0038I Pass  88: suminf.    2.00000 (4) obj. -0.75 iterations 3
+Cbc0038I No solution found this major pass
+Cbc0038I Before mini branch and bound, 19 integers at bound fixed and 0 continuous
+Cbc0038I Full problem 38 rows 56 columns, reduced to 17 rows 24 columns
+Cbc0038I Mini branch and bound did not improve solution (0.02 seconds)
+Cbc0038I After 0.02 seconds - Feasibility pump exiting with objective of -0.25 - took 0.02 seconds
+Cbc0012I Integer solution of -0.25 found by feasibility pump after 0 iterations and 0 nodes (0.02 seconds)
+Cbc0031I 11 added rows had average density of 4.8181818
+Cbc0013I At root node, 130 cuts changed objective from -1 to -0.25 in 7 passes
+Cbc0014I Cut generator 0 (Probing) - 146 row cuts average 2.6 elements, 7 column cuts (7 active)  in 0.001 seconds - new frequency is 1
+Cbc0014I Cut generator 1 (Gomory) - 57 row cuts average 16.5 elements, 0 column cuts (0 active)  in 0.001 seconds - new frequency is 1
+Cbc0014I Cut generator 2 (Knapsack) - 41 row cuts average 3.1 elements, 0 column cuts (0 active)  in 0.002 seconds - new frequency is 1
+Cbc0014I Cut generator 3 (Clique) - 0 row cuts average 0.0 elements, 0 column cuts (0 active)  in 0.000 seconds - new frequency i
+x 5
+cnt: 0
+0
+[1, 3]
+[1, 3]
+[1, 3]
+[1, 3]
+[[[<mip.entities.Var object at 0x7fdfcc7180f0>, <mip.entities.Var object at 0x7fdfcc718128>], [<mip.entities.Var object at 0x7fdfcc718160>, <mip.entities.Var object at 0x7fdfcc718198>], [<mip.entities.Var object at 0x7fdfcc7181d0>, <mip.entities.Var object at 0x7fdfcc718208>], [<mip.entities.Var object at 0x7fdfcc718240>, <mip.entities.Var object at 0x7fdfcc718278>]], [[<mip.entities.Var object at 0x7fdfcc718470>, <mip.entities.Var object at 0x7fdfcc718668>], [<mip.entities.Var object at 0x7fdfcc7186a0>, <mip.entities.Var object at 0x7fdfcc7186d8>], [<mip.entities.Var object at 0x7fdfcc718710>, <mip.entities.Var object at 0x7fdfcc718748>], [<mip.entities.Var object at 0x7fdfcc718780>, <mip.entities.Var object at 0x7fdfcc7187b8>]], [[<mip.entities.Var object at 0x7fdfcc7189b0>, <mip.entities.Var object at 0x7fdfcc718ba8>], [<mip.entities.Var object at 0x7fdfcc718be0>, <mip.entities.Var object at 0x7fdfcc718c18>], [<mip.entities.Var object at 0x7fdfcc718c50>, <mip.entities.Var object at 0x7fdfcc718c88>], [<mip.entities.Var object at 0x7fdfcc718cc0>, <mip.entities.Var object at 0x7fdfcc718cf8>]], [[<mip.entities.Var object at 0x7fdfcc713048>, <mip.entities.Var object at 0x7fdfcc713128>], [<mip.entities.Var object at 0x7fdfcc713160>, <mip.entities.Var object at 0x7fdfcc713198>], [<mip.entities.Var object at 0x7fdfcc7131d0>, <mip.entities.Var object at 0x7fdfcc713208>], [<mip.entities.Var object at 0x7fdfcc713240>, <mip.entities.Var object at 0x7fdfcc713278>]], [[<mip.entities.Var object at 0x7fdfcc713470>, <mip.entities.Var object at 0x7fdfcc713668>], [<mip.entities.Var object at 0x7fdfcc7136a0>, <mip.entities.Var object at 0x7fdfcc7136d8>], [<mip.entities.Var object at 0x7fdfcc713710>, <mip.entities.Var object at 0x7fdfcc713748>], [<mip.entities.Var object at 0x7fdfcc713780>, <mip.entities.Var object at 0x7fdfcc7137b8>]], [[<mip.entities.Var object at 0x7fdfcc7139b0>, <mip.entities.Var object at 0x7fdfcc713ba8>], [<mip.entities.Var object at 0x7fdfcc713be0>, <mip.entities.Var object at 0x7fdfcc713c18>], [<mip.entities.Var object at 0x7fdfcc713c50>, <mip.entities.Var object at 0x7fdfcc713c88>], [<mip.entities.Var object at 0x7fdfcc713cc0>, <mip.entities.Var object at 0x7fdfcc713cf8>]], [[<mip.entities.Var object at 0x7fdfcc710048>, <mip.entities.Var object at 0x7fdfcc7100b8>], [<mip.entities.Var object at 0x7fdfcc7100f0>, <mip.entities.Var object at 0x7fdfcc710128>], [<mip.entities.Var object at 0x7fdfcc710160>, <mip.entities.Var object at 0x7fdfcc710198>], [<mip.entities.Var object at 0x7fdfcc7101d0>, <mip.entities.Var object at 0x7fdfcc710208>]]]
+x 6
+cnt: 0
+0
+[2, 3]
+[2, 3]
+[2, 3]
+[2, 3]
+[[[<mip.entities.Var object at 0x7fdfcc7180f0>, <mip.entities.Var object at 0x7fdfcc718128>], [<mip.entities.Var object at 0x7fdfcc718160>, <mip.entities.Var object at 0x7fdfcc718198>], [<mip.entities.Var object at 0x7fdfcc7181d0>, <mip.entities.Var object at 0x7fdfcc718208>], [<mip.entities.Var object at 0x7fdfcc718240>, <mip.entities.Var object at 0x7fdfcc718278>]], [[<mip.entities.Var object at 0x7fdfcc718470>, <mip.entities.Var object at 0x7fdfcc718668>], [<mip.entities.Var object at 0x7fdfcc7186a0>, <mip.entities.Var object at 0x7fdfcc7186d8>], [<mip.entities.Var object at 0x7fdfcc718710>, <mip.entities.Var object at 0x7fdfcc718748>], [<mip.entities.Var object at 0x7fdfcc718780>, <mip.entities.Var object at 0x7fdfcc7187b8>]], [[<mip.entities.Var object at 0x7fdfcc7189b0>, <mip.entities.Var object at 0x7fdfcc718ba8>], [<mip.entities.Var object at 0x7fdfcc718be0>, <mip.entities.Var object at 0x7fdfcc718c18>], [<mip.entities.Var object at 0x7fdfcc718c50>, <mip.entities.Var object at 0x7fdfcc718c88>], [<mip.entities.Var object at 0x7fdfcc718cc0>, <mip.entities.Var object at 0x7fdfcc718cf8>]], [[<mip.entities.Var object at 0x7fdfcc713048>, <mip.entities.Var object at 0x7fdfcc713128>], [<mip.entities.Var object at 0x7fdfcc713160>, <mip.entities.Var object at 0x7fdfcc713198>], [<mip.entities.Var object at 0x7fdfcc7131d0>, <mip.entities.Var object at 0x7fdfcc713208>], [<mip.entities.Var object at 0x7fdfcc713240>, <mip.entities.Var object at 0x7fdfcc713278>]], [[<mip.entities.Var object at 0x7fdfcc713470>, <mip.entities.Var object at 0x7fdfcc713668>], [<mip.entities.Var object at 0x7fdfcc7136a0>, <mip.entities.Var object at 0x7fdfcc7136d8>], [<mip.entities.Var object at 0x7fdfcc713710>, <mip.entities.Var object at 0x7fdfcc713748>], [<mip.entities.Var object at 0x7fdfcc713780>, <mip.entities.Var object at 0x7fdfcc7137b8>]], [[<mip.entities.Var object at 0x7fdfcc7139b0>, <mip.entities.Var object at 0x7fdfcc713ba8>], [<mip.entities.Var object at 0x7fdfcc713be0>, <mip.entities.Var object at 0x7fdfcc713c18>], [<mip.entities.Var object at 0x7fdfcc713c50>, <mip.entities.Var object at 0x7fdfcc713c88>], [<mip.entities.Var object at 0x7fdfcc713cc0>, <mip.entities.Var object at 0x7fdfcc713cf8>]], [[<mip.entities.Var object at 0x7fdfcc710048>, <mip.entities.Var object at 0x7fdfcc7100b8>], [<mip.entities.Var object at 0x7fdfcc7100f0>, <mip.entities.Var object at 0x7fdfcc710128>], [<mip.entities.Var object at 0x7fdfcc710160>, <mip.entities.Var object at 0x7fdfcc710198>], [<mip.entities.Var object at 0x7fdfcc7101d0>, <mip.entities.Var object at 0x7fdfcc710208>]], [[<mip.entities.Var object at 0x7fdfcc710400>, <mip.entities.Var object at 0x7fdfcc7105f8>], [<mip.entities.Var object at 0x7fdfcc710630>, <mip.entities.Var object at 0x7fdfcc710668>], [<mip.entities.Var object at 0x7fdfcc7106a0>, <mip.entities.Var object at 0x7fdfcc7106d8>], [<mip.entities.Var object at 0x7fdfcc710710>, <mip.entities.Var object at 0x7fdfcc710748>]]]
+Optimal value is-1.25
+Counter example found with -1.25 as its minimum value
+x_b_0_0 : 1.0
+x_b_0_1 : 0.0
+x_b_1_0 : 1.0
+x_b_1_1 : 1.0
+x_b_2_0 : 0.0
+x_b_2_1 : 1.0
+x_b_3_0 : 0.0
+x_b_3_1 : 1.0
+x_ext_0_0_0 : 1.0
+x_ext_0_0_1 : 1.0
+x_ext_0_1_0 : 0.0
+x_ext_0_1_1 : 0.0
+x_ext_0_2_0 : 1.0
+x_ext_0_2_1 : 1.0
+x_ext_0_3_0 : 1.0
+x_ext_0_3_1 : 1.0
+x_sum_0_0_0 : 0.0
+x_sum_0_0_1 : 0.0
+x_sum_0_1_0 : 1.0
+x_sum_0_1_1 : 1.0
+x_sum_0_2_0 : 0.0
+x_sum_0_2_1 : 0.0
+x_sum_0_3_0 : 0.0
+x_sum_0_3_1 : 0.0
+x_ext_1_0_0 : 1.0
+x_ext_1_0_1 : 0.0
+x_ext_1_1_0 : 1.0
+x_ext_1_1_1 : 0.0
+x_ext_1_2_0 : 1.0
+x_ext_1_2_1 : 0.0
+x_ext_1_3_0 : 1.0
+x_ext_1_3_1 : 0.0
+x_sum_1_0_0 : 0.0
+x_sum_1_0_1 : 1.0
+x_sum_1_1_0 : 0.0
+x_sum_1_1_1 : 1.0
+x_sum_1_2_0 : 0.0
+x_sum_1_2_1 : 1.0
+x_sum_1_3_0 : 0.0
+x_sum_1_3_1 : 1.0
+x_ext_2_0_0 : 0.0
+x_ext_2_0_1 : 0.0
+x_ext_2_1_0 : 0.0
+x_ext_2_1_1 : 0.0
+x_ext_2_2_0 : 0.0
+x_ext_2_2_1 : 0.0
+x_ext_2_3_0 : 0.0
+x_ext_2_3_1 : 0.0
+x_sum_2_0_0 : 0.0
+x_sum_2_0_1 : 1.0
+x_sum_2_1_0 : 0.0
+x_sum_2_1_1 : 1.0
+x_sum_2_2_0 : 0.0
+x_sum_2_2_1 : 1.0
+x_sum_2_3_0 : 0.0
+x_sum_2_3_1 : 1.0
+x_ext_3_0_0 : 0.0
+x_ext_3_0_1 : 1.0
+x_ext_3_1_0 : 0.0
+x_ext_3_1_1 : 1.0
+x_ext_3_2_0 : 0.0
+x_ext_3_2_1 : 1.0
+x_ext_3_3_0 : 0.0
+x_ext_3_3_1 : 1.0
+x_sum_3_0_0 : 1.0
+x_sum_3_0_1 : 0.0
+x_sum_3_1_0 : 1.0
+x_sum_3_1_1 : 0.0
+x_sum_3_2_0 : 1.0
+x_sum_3_2_1 : 0.0
+x_sum_3_3_0 : 1.0
+x_sum_3_3_1 : 0.0
+x_ext_4_0_0 : 0.0
+x_ext_4_0_1 : 0.0
+x_ext_4_1_0 : 0.0
+x_ext_4_1_1 : 0.0
+x_ext_4_2_0 : 0.0
+x_ext_4_2_1 : 0.0
+x_ext_4_3_0 : 0.0
+x_ext_4_3_1 : 0.0
+x_sum_4_0_0 : 0.0
+x_sum_4_0_1 : 1.0
+x_sum_4_1_0 : 0.0
+x_sum_4_1_1 : 1.0
+x_sum_4_2_0 : 0.0
+x_sum_4_2_1 : 1.0
+x_sum_4_3_0 : 0.0
+x_sum_4_3_1 : 1.0
+x_ext_5_0_0 : 0.0
+x_ext_5_0_1 : 1.0
+x_ext_5_1_0 : 0.0
+x_ext_5_1_1 : 1.0
+x_ext_5_2_0 : 0.0
+x_ext_5_2_1 : 1.0
+x_ext_5_3_0 : 0.0
+x_ext_5_3_1 : 1.0
+x_sum_5_0_0 : 1.0
+x_sum_5_0_1 : 0.0
+x_sum_5_1_0 : 1.0
+x_sum_5_1_1 : 0.0
+x_sum_5_2_0 : 1.0
+x_sum_5_2_1 : 0.0
+x_sum_5_3_0 : 1.0
+x_sum_5_3_1 : 0.0
+x_ext_6_0_0 : 1.0
+x_ext_6_0_1 : 1.0
+x_ext_6_1_0 : 1.0
+x_ext_6_1_1 : 1.0
+x_ext_6_2_0 : 1.0
+x_ext_6_2_1 : 1.0
+x_ext_6_3_0 : 1.0
+x_ext_6_3_1 : 1.0
+x_sum_6_0_0 : 0.0
+x_sum_6_0_1 : 0.0
+x_sum_6_1_0 : 0.0
+x_sum_6_1_1 : 0.0
+x_sum_6_2_0 : 0.0
+x_sum_6_2_1 : 0.0
+x_sum_6_3_0 : 0.0
+x_sum_6_3_1 : 0.0
+x_ext_7_0_0 : 0.0
+x_ext_7_0_1 : 0.0
+x_ext_7_1_0 : 0.0
+x_ext_7_1_1 : 0.0
+x_ext_7_2_0 : 0.0
+x_ext_7_2_1 : 0.0
+x_ext_7_3_0 : 0.0
+x_ext_7_3_1 : 0.0
+x_sum_7_0_0 : 0.0
+x_sum_7_0_1 : 0.0
+x_sum_7_1_0 : 0.0
+x_sum_7_1_1 : 0.0
+x_sum_7_2_0 : 0.0
+x_sum_7_2_1 : 0.0
+x_sum_7_3_0 : 0.0
+x_sum_7_3_1 : 0.0
+[[-0.25, -0.25], [0.0, 0.0], [-0.25, -0.25], [0.0, 0.0], [-0.25, -0.25], [0.0, 0.0], [0.25, 0.25], [0.0, 0.0]]
+s -100
+Cbc0014I Cut generator 4 (OddWheel) - 0 row cuts average 0.0 elements, 0 column cuts (0 active)  in 0.000 seconds - new frequency is -100
+Cbc0014I Cut generator 5 (MixedIntegerRounding2) - 1 row cuts average 7.0 elements, 0 column cuts (0 active)  in 0.000 seconds - new frequency is -100
+Cbc0014I Cut generator 6 (FlowCover) - 0 row cuts average 0.0 elements, 0 column cuts (0 active)  in 0.000 seconds - new frequency is -100
+Cbc0014I Cut generator 7 (TwoMirCuts) - 100 row cuts average 11.5 elements, 0 column cuts (0 active)  in 0.002 seconds - new frequency is -100
+Cbc0001I Search completed - best objective -0.25, took 99 iterations and 0 nodes (0.03 seconds)
+Cbc0035I Maximum depth 0, 7 variables fixed on reduced cost
+Cuts at root node changed objective from -1 to -0.25
+Probing was tried 7 times and created 153 cuts of which 0 were active after adding rounds of cuts (0.001 seconds)
+Gomory was tried 7 times and created 57 cuts of which 0 were active after adding rounds of cuts (0.001 seconds)
+Knapsack was tried 7 times and created 41 cuts of which 0 were active after adding rounds of cuts (0.002 seconds)
+Clique was tried 7 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+OddWheel was tried 7 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+MixedIntegerRounding2 was tried 7 times and created 1 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+FlowCover was tried 7 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+TwoMirCuts was tried 7 times and created 100 cuts of which 0 were active after adding rounds of cuts (0.002 seconds)
+ZeroHalf was tried 1 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+
+Result - Optimal solution found
+
+Objective value:                -0.25000000
+Enumerated nodes:               0
+Total iterations:               99
+Time (CPU seconds):             0.03
+Time (Wallclock seconds):       0.04
+
+Total time (CPU seconds):       0.04   (Wallclock seconds):       0.04
+

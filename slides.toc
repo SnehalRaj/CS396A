@@ -1,0 +1,5 @@
+\beamer@sectionintoc {1}{Introduction}{3}{0}{1}
+\beamer@sectionintoc {2}{Block-multilinear degree vs degree}{8}{0}{2}
+\beamer@sectionintoc {3}{Classical-Quantum Gap}{11}{0}{3}
+\beamer@sectionintoc {4}{Experiments}{15}{0}{4}
+\beamer@sectionintoc {5}{References}{16}{0}{5}
