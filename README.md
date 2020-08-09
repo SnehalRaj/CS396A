@@ -11,3 +11,5 @@ as a polynomial using indicator functions, which can then easily be converted to
 different approaches, symmetrization and dual witness. The details can be found in Chapter
 3 of the report. We also present the main results of the paper by Aaronson et. al. "Forrelation: A problem that optimally separates quantum
 from classical computing," in Chapter 4.
+
+[Report](http://home.iitk.ac.in/~snehal/CS396A/Report.pdf)
