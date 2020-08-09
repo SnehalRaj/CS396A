@@ -1,5 +1,0 @@
-\frametitle{Quantum Mechanics}
-One of the most basic quantum mechanical systems is a simple 2-state system called the qubit. The qubit is a linear superposition of two states, $|0\rangle$ and $|1\rangle$, which form an orthonormal basis of the qubit space.\\
-\vspace{1em}
- We thus write the state of the qubit as $$|\psi\rangle = \alpha|0\rangle + \beta|1\rangle$$ where $\alpha$ and $\beta$ are called the amplitudes and can be complex numbers in general.\\
- Measuring this qubit must result in one of the basis states, with probability equal to the square of the corresponding amplitude. Thus, we have $$\alpha^2 + \beta^2 = 1.$$
