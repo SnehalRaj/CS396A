@@ -14,3 +14,8 @@ different approaches, symmetrization and dual witness. The details can be found 
 3 of the report. We also present the main results of the paper by Aaronson et. al. "Forrelation: A problem that optimally separates quantum
 from classical computing," in Chapter 4.
 
+## Authors
+
+* **Akash Kumar Singh** - (https://github.com/akashks1998)
+* **Siddhant Kar** - (https://github.com/siddhantkar)
+* **Snehal Raj** - (https://github.com/SnehalRaj)
