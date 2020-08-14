@@ -1,0 +1,170 @@
+\documentclass[10pt]{beamer}
+\usetheme[progressbar=frametitle]{metropolis}
+\usepackage{appendixnumberbeamer}
+\usepackage{ragged2e}
+\usepackage{bm}
+\justifying
+\usepackage[numbers,sort&compress]{natbib}
+\bibliographystyle{plainnat}
+
+\usepackage{booktabs}
+\usepackage[scale=2]{ccicons}
+\usepackage{amsmath}
+\newcommand{\Exp}{\mathrm{E}}
+\newcommand{\Var}{\mathrm{Var}}
+\newcommand{\Cov}{\mathrm{Cov}}
+\newcommand{\bmdeg}{\mathrm{bmdeg}}
+\newcommand{\sgn}{\mathrm{sgn}}
+
+\usepackage{amssymb}
+\usepackage{commath}
+\usepackage{mathtools}
+\DeclarePairedDelimiter\ceil{\lceil}{\rceil}
+\DeclarePairedDelimiter\floor{\lfloor}{\rfloor}
+
+\usepackage{xspace}
+\newcommand{\themename}{\textbf{\textsc{metropolis}}\xspace}
+\usepackage{graphicx}
+\graphicspath{ {./images/} }
+\title{Block Multilinear Degree}
+\subtitle{Paper Review}
+\date{}
+\author{Akash Kumar Singh, Siddhant Kar, Snehal Raj}
+\institute{IIT Kanpur}
+
+\begin{document}
+\maketitle
+
+\begin{frame}{Table Of Contents}
+  \setbeamertemplate{section in toc}[sections numbered]
+  \tableofcontents[hideallsubsections]
+\end{frame}
+
+\section{Introduction}
+
+\begin{frame}[fragile]{Quantum Query Model}
+\begin{itemize}
+    \item The quantum query model is the most widely used model to study quantum algorithms.
+    \item Given a boolean function $x\colon \{-1,1\}^n\rightarrow \{-1,1\}$, we are required to calculate a property $f(x)$, where $f\colon \{-1,1\}^N\rightarrow \{0,1\}$ and $N = 2^n$.
+    \item An algorithm based on this model is allowed to make several queries to $x$ in order to calculate $f(x)$.
+    \item The minimum number of queries that any such algorithm must make in order to determine $f$ is called the quantum query complexity $Q_f$ of $f$.
+\end{itemize}
+\end{frame} 
+
+\begin{frame}{Quantum Query Model}
+\begin{itemize}
+    \item The polynomial method puts a lower bound on $Q_f$.
+    \item Using the method, we can construct a degree $2Q_f$ polynomial that approximates $f$ up to some $\epsilon$.
+    \item The minimum degree that any such polynomial can attain is called the $\epsilon$-approximate degree of $f$, denoted $\widetilde{\deg}_\epsilon(f)$.
+    \item Thus, $2Q_f \geq \widetilde{\deg}_\epsilon(f)$.
+\end{itemize}
+\end{frame} 
+
+\begin{frame}{Block-multilinear polynomials}
+\begin{itemize}
+    \item Aaronson et al. \cite{paper1} introduced a new notion and approximated $f$ up to $\pm \epsilon$ using a "block-multilinear" polynomial of degree $2Q_f$.
+    \item A block multilinear polynomial on $\{-1,1\}^n$ is of the form $$p(x) = p(x_{1,1}, x_{1,2}, \ldots) = \sum_{(i_1, \ldots, i_k)} a_{i_1 \ldots i_k} x_{1,i_1} \ldots x_{k,i_k}$$ where its $n$ variables can be partitioned into $k$ disjoint blocks $B_i, i \in [k]$, such that $x_{i,j} \in B_i\ \forall j$.
+    \item The minimum degree attainable by a block-multilinear polynomial that approximates $f$ up to $\pm \epsilon$ is called the $\epsilon$-approximate block-multilinear degree, denoted $\widetilde{\bmdeg}_\epsilon(f)$.
+    \item We thus have $2Q_f \geq \widetilde{\bmdeg}_\epsilon(f)$.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Forrelation}
+\begin{itemize}
+    \item This notion of block-multilinear polynomials is used in \cite{paper1} to solve a problem called Forrelation.
+    \item It is a measure of the correlation between a function $f$ and the fourier transform of a second function $g$.
+    \item Given oracle access to two boolean functions $f,g\colon \{0,1\}^{n} \rightarrow  \{-1,1\}$, let
+    \begin{equation*}
+    \Phi_{f, g} := \frac{1}{2^{3n/2}} \sum_{x, y \in \{0,1\}^{n}} f(x)(-1)^{x \cdot y} g(y).
+    \end{equation*}
+    \item We have to decide whether $\Phi_{f,g} \geq 0.6$ or $\left|\Phi_{\mathrm{f}, \mathrm{g}}\right| \leq 0.01$, promised that one of them is the case.
+\end{itemize} 
+\end{frame}
+
+\section{Block-multilinear Degree v/s Degree}
+\begin{frame}{Bmdeg vs Deg}
+\begin{itemize}
+    \item We want compare the exact block-multilinear degree of a Boolean function to its degree.
+    \item Block-multilinear degree is at least equal to the degree.
+    \item We want to find $f$ for which the inequality is strict, that is, $\widetilde{\bmdeg}_\epsilon(f) > \widetilde{\deg}_\epsilon(f)$.
+    \item Approach 1: Construct a block-multilinear polynomial by symmetrically splitting the coefficients of a given polynomial.
+    \item Approach 2: Find a dual witness for a suitable linear program.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Symmetrization}
+\begin{itemize}
+    \item Given an exact polynomial representation of $f$ in the Fourier basis
+    \begin{equation*}
+    f(x) = \sum_{S\subseteq [n]} \hat{f}(S) \chi_S(x)
+    \end{equation*}
+    where $\chi_S(x) = \prod_{i\in S}x_i$.
+    \item Construct a symmetric block-multilinear polynomial by symmetrically splitting $\hat{f}(S) \chi_S(x)$.
+    \item Check whether this construction is bounded in $[-1,1]$ on all possible inputs using an Integer Linear Program.
+    \item Found a counter-example where the polynomial was not bounded.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Dual Witness}
+\begin{itemize}
+    \item Consider the linear program that finds the best possible approximation of a function $f\colon \{-1,1\}^N \rightarrow \{0,1\}$ using block-multilinear polynomials $g$ of degree $d = \deg(f)$.
+    \item Weak duality implies that if the value of the dual is strictly greater than $\epsilon_0$, then the value of the primal is greater than $\epsilon_0$ as well.
+    \item This implies that $\bmdeg_{\epsilon_0}(f) > d$.
+\end{itemize}
+\begin{theorem}
+Let $f\colon \{-1,1\}^N \rightarrow \{0,1\}$ have degree $d$. Then $\bmdeg_{0}(f) > d$ if and only if there exist $\phi\colon \{-1,1\}^N \rightarrow \mathbb{R}$ and $\psi_1, \psi_2\colon \{-1,1\}^{(N+1)d} \rightarrow \mathbb{R^+}$ such that \begin{enumerate}
+    \item $\sum_x \phi(x)f(x) \geq \sum_{\bar{x}} (\psi_1(\bar{x}) + \psi_2(\bar{x})).$
+    \item ${\hat{\psi}}_1(m) - {\hat{\psi}}_2(m) = \frac{N}{2^{(N+1)d}} \hat{\phi}(S_m) ~\forall m\in \{0, \ldots, N\}^d.$
+\end{enumerate} 
+\end{theorem}
+\end{frame}
+
+\section{Classical-Quantum Gap}
+
+\begin{frame}{Classical-Quantum Gap}
+\begin{itemize}
+    \item Aaronson et al. \cite{paper1} showed that Forrelation for $k$ functions can be solved in $\lceil k/2 \rceil$ quantum queries.
+    \item They also showed that it requires at least $\Omega(\frac{\sqrt{N}}{\log N})$ classical queries.
+    \item Forrelation thus has a gap of $\Omega(\frac{\sqrt{N}}{\log N})$ between its quantum and classical query complexities.
+    \item It is the largest gap known yet among promise problems.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Real Forrelation}
+We first convert the Forrelation problem into a Real Forrelation problem. In Real Forrelation, we are given oracle access to two real functions $f,g\colon \{0,1\}^{n}\rightarrow \mathbb{R}$ and are promised that either
+\begin{enumerate}
+    \item every $f(x)$ and $g(y)$ value is an independent $\mathcal{N}(0,1)$ Gaussian, or else
+    \item every $f(x)$ value is an independent $\mathcal{N}(0,1)$ Gaussian and every $g(y)$ value equals $\hat{f}(y)$ (i.e. the Fourier transform of $f$ evaluated at $y$).
+\end{enumerate}
+\end{frame}
+
+\begin{frame}{Gaussian Distinguishing}
+In the Gaussian Distinguishing problem, we are given oracle access to a collection of $\mathcal{N}(0,1)$ real Gaussian variables $x_{1},x_{2}..., x_{m}$ and are asked to decide whether 
+\begin{enumerate}
+    \item the variables are all independent, or
+    \item the variables lie in a known low dimensional subspace $S \leq R^{m}$ such that there is a covariance of at most $\epsilon$ between each pair of variables, i.e., $ |~Cov(x_{i},x_{j})~| \leq \epsilon ~\forall~ i,j$.
+\end{enumerate}
+\end{frame}
+
+\begin{frame}{Randomized Lower bound}
+\begin{itemize}
+    \item If there exists a $T$-query algorithm that solves Forrelation with bounded error, then there also exists an $O(T)$-query algorithm that solves Real Forrelation with bounded error.
+    \item Gaussian distinguishing requires $\Omega\left(\frac{1 / \varepsilon}{\log (M / \varepsilon)}\right)$ classical randomized queries.
+    \item Using the above stated results, any classical randomized algorithm for must make $\Omega(\frac{\sqrt{N}}{\log N})$ queries.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Optimized Randomized Algorithm}
+\begin{itemize}
+    \item Forrelation requires at least $\Omega(\sqrt{N}/\log n)$ queries classically but just one quantum query.
+    \item This 1-query quantum algorithm can be converted to a $\sqrt{N}$-query randomized algorithm.
+    \item  We do this by using an estimator to estimate the block-multilinear polynomial.
+\end{itemize}
+\end{frame}
+
+\begin{frame}[allowframebreaks]
+    \frametitle{}
+    \bibliography{refs}
+\end{frame}
+
+\end{document}
