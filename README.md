@@ -16,6 +16,6 @@ from classical computing," in Chapter 4.
 
 ## Authors
 
-* **Akash Kumar Singh** - (https://github.com/akashks1998)
-* **Siddhant Kar** - (https://github.com/siddhantkar)
-* **Snehal Raj** - (https://github.com/SnehalRaj)
+* [**Akash Kumar Singh**](https://github.com/akashks1998)
+* [**Siddhant Kar**](https://github.com/siddhantkar)
+* [**Snehal Raj**](https://github.com/SnehalRaj)
